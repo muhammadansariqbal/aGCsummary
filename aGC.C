@@ -32,6 +32,7 @@ float labelSizeX = 0.04;
 float labelOffsetX = 0.004;
 float labelOffsetY = 0.004;
 float labelSizeY = 0.045;
+float tickLengthX  = 0.03;
 int ndivx = 506;
 int ndivy = 506;
 float aspR = 1.4; 
@@ -57,7 +58,7 @@ void text_reset();
 void text_write();
 
 // drawings
-void draw_bin_grid( float xmin, float xmax, float ymin, float ymax, 
+void draw_bin_grid( size_t lineNum, float xmin, float xmax, float ymin, float ymax, 
 		    int iCol=kGray+2, int iStyle=kDotted );
 // constants
 const float W_br_lnu    = 10.800e-02;
@@ -330,6 +331,7 @@ aGC(float ymin=-2.0, float ymax=900000 )
   ax_->SetTitleSize(titleSizeX);
   ax_->SetLabelOffset(labelOffsetX);
   ax_->SetLabelSize(labelSizeX);
+  ax_->SetTickLength(tickLengthX);
   ax_->SetRange(minRange,maxRange);
   
   ndivy = 0;
@@ -367,7 +369,7 @@ aGC(float ymin=-2.0, float ymax=900000 )
  
   	if (centralValue){
 
-  	  TMarker _dataPointCV( xx_- 0.26*maxRange, yy_-dyy_*0.50, kFullCircle );
+  	  TMarker _dataPointCV( xx_- 0.28*maxRange, yy_-dyy_*0.50, kFullCircle );
   	  _dataPointCV.SetMarkerSize(markerSize);
   	  _dataPointCV.SetMarkerColor(kRed);
   	  _dataPointCV.DrawClone();
@@ -378,17 +380,17 @@ aGC(float ymin=-2.0, float ymax=900000 )
 	  
   	  txt[ntxt] = "Central";
   	  txtSize[ntxt] = 0.020;
-  	  txtX[ntxt] = xx_ - 0.3*maxRange;
-  	  txtY[ntxt] = yy_-dyy_*1.5;
-  	  txtAlign[ntxt] = 12;
+  	  txtX[ntxt] = xx_ - 0.28*maxRange;
+  	  txtY[ntxt] = yy_-dyy_*1.8;
+  	  txtAlign[ntxt] = 22;
   	  txtFont[ntxt] = 42;
   	  ntxt++;
 
   	  txt[ntxt] = "Fit Value";
   	  txtSize[ntxt] = 0.020;
-  	  txtX[ntxt] = xx_ - 0.3*maxRange;
-  	  txtY[ntxt] = yy_-dyy_*2.6;
-  	  txtAlign[ntxt] = 12;
+  	  txtX[ntxt] = xx_ - 0.28*maxRange;
+  	  txtY[ntxt] = yy_-dyy_*3.3;
+  	  txtAlign[ntxt] = 22;
   	  txtFont[ntxt] = 42;
   	  ntxt++;
   	}
@@ -454,11 +456,11 @@ aGC(float ymin=-2.0, float ymax=900000 )
   
   for( size_t ii=0; ii<vline_.size(); ii++ )
     {
-      draw_bin_grid( vmin_[ii], vmax_[ii], vline_[ii], vline_[ii],
+      draw_bin_grid( ii, vmin_[ii], vmax_[ii], vline_[ii], vline_[ii],
 		     kGray+2, vstyle_[ii] );
     }
 
-  c_->RedrawAxis();
+  //c_->RedrawAxis();
   c_->GetFrame()->Draw();
 
   text_write();    
@@ -466,12 +468,22 @@ aGC(float ymin=-2.0, float ymax=900000 )
   return c_;
 }
 
-void draw_bin_grid( float xmin, float xmax, float ymin, float ymax, int iCol, int iStyle )
+void draw_bin_grid( size_t lineNum, float xmin, float xmax, float ymin, float ymax, int iCol, int iStyle )
 {
   TLine grid_;
   grid_.SetLineColor(iCol);
   grid_.SetLineStyle(iStyle);
   grid_.DrawLine(xmin,ymin,xmax,ymax);
+  if(lineNum==1 || lineNum==2){
+    TBox highlight_;
+    highlight_.SetFillColor(kYellow-4);
+    highlight_.DrawBox(0.3,ymin,0.995,ymax+1);
+  }
+  else if (lineNum==3){
+    TBox highlight_;
+    highlight_.SetFillColor(kYellow-4);
+    highlight_.DrawBox(0.3,ymin+0.3,0.995,ymax+1.3);
+  }
 }
 
 void text_reset()

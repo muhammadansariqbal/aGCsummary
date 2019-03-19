@@ -2,7 +2,7 @@
 
 enum {  k_atlas_wg_dkg=0, k_cms_wg_dkg,   k_atlas_ww8_dkg, k_cms_ww_dkg, k_cms_ww8_dkg, k_atlas_wz8_dkg, k_atlas_wv_dkg, k_atlas_wvjj8_dkg, k_atlas_wvJ8_dkg, k_cms_wv_dkg,  k_cms_wv8_dkg, k_d0_vv_dkg, k_lep_ww_dkg, 
 k_atlas_wg_lg, k_cms_wg_lg, k_atlas_ww8_lg, k_cms_ww_lg, k_cms_ww8_lg, k_atlas_wz8_lg, k_atlas_wv_lg, k_atlas_wvjj8_lg, k_atlas_wvJ8_lg, k_cms_wv_lg, k_cms_wv8_lg, k_d0_vv_lg, k_lep_ww_lg, 
-	k_atlas_ww_dkz, k_atlas_ww8_dkz, k_cms_ww8_dkz, k_atlas_wz_dkz, k_atlas_wz8_dkz, k_atlas_wz13_dkz, k_atlas_wz813_dkz, k_cms_wz8_dkz, k_cms_wz13_dkz, k_atlas_wv_dkz, k_cms_wv_dkz, k_cms_wv8_dkz, k_cms_wv13_dkz,   k_lep_ww_dkz,  k_atlas_ww_dk,  k_d0_vv_dk, k_atlas_ww_lz, k_atlas_ww8_lz, k_cms_ww_lz, k_cms_ww8_lz,  k_atlas_wz_lz, k_atlas_wz8_lz, k_atlas_wz13_lz, k_atlas_wz813_lz, k_cms_wz8_lz, k_cms_wz13_lz, k_atlas_wv_lz,  k_atlas_wvjj8_lz, k_atlas_wvJ8_lz, k_cms_wv_lz, k_cms_wv8_lz, k_cms_wv13_lz, k_cms_vbfz13_lz, k_d0_vv_lz,  k_lep_ww_lz, k_atlas_ww_dgz, k_atlas_ww8_dgz, k_cms_ww_dgz,  k_cms_ww8_dgz,  k_atlas_wz_dgz, k_atlas_wz8_dgz, k_atlas_wz13_dgz, k_atlas_wz813_dgz, k_cms_wz8_dgz, k_cms_wz13_dgz, k_atlas_wv_dgz,  k_atlas_wvjj8_dgz, k_atlas_wvJ8_dgz, k_cms_wv8_dgz, k_cms_wv13_dgz, k_cms_vbfz13_dgz, k_d0_vv_dgz, k_lep_ww_dgz, 
+	k_atlas_ww_dkz, k_atlas_ww8_dkz, k_cms_ww8_dkz, k_atlas_wz_dkz, k_atlas_wz8_dkz, k_atlas_wz13_dkz, k_atlas_wz813_dkz, k_cms_wz8_dkz, k_cms_wz13_dkz, k_atlas_wv_dkz, k_cms_wv_dkz, k_cms_wv8_dkz, k_cms_wv13_dkz,   k_lep_ww_dkz, k_cms_wv13_2016_dkz, k_atlas_ww_dk,  k_d0_vv_dk, k_atlas_ww_lz, k_atlas_ww8_lz, k_cms_ww_lz, k_cms_ww8_lz,  k_atlas_wz_lz, k_atlas_wz8_lz, k_atlas_wz13_lz, k_atlas_wz813_lz, k_cms_wz8_lz, k_cms_wz13_lz, k_atlas_wv_lz,  k_atlas_wvjj8_lz, k_atlas_wvJ8_lz, k_cms_wv_lz, k_cms_wv8_lz, k_cms_wv13_lz, k_cms_vbfz13_lz, k_d0_vv_lz,  k_lep_ww_lz, k_cms_wv13_2016_lz, k_atlas_ww_dgz, k_atlas_ww8_dgz, k_cms_ww_dgz,  k_cms_ww8_dgz,  k_atlas_wz_dgz, k_atlas_wz8_dgz, k_atlas_wz13_dgz, k_atlas_wz813_dgz, k_cms_wz8_dgz, k_cms_wz13_dgz, k_atlas_wv_dgz,  k_atlas_wvjj8_dgz, k_atlas_wvJ8_dgz, k_cms_wv8_dgz, k_cms_wv13_dgz, k_cms_vbfz13_dgz, k_d0_vv_dgz, k_lep_ww_dgz, k_cms_wv13_2016_dgz, 
 k_atlas_zg_h3g,  k_atlas_zg8_h3g, k_atlas_zg13_h3g, k_cms_zg_h3g, k_cms_zg8_h3g, k_cms_zg8_h3g2, k_cdf_zg_h3g, k_atlas_zg_h3z,  k_atlas_zg8_h3z, k_atlas_zg13_h3z, k_cms_zg_h3z, k_cms_zg8_h3z, k_cms_zg8_h3z2, k_cdf_zg_h3z, k_atlas_zg_h4g, k_atlas_zg8_h4g, k_atlas_zg13_h4g, k_cms_zg_h4g, k_cms_zg8_h4g, k_cms_zg8_h4g2, k_atlas_zg_h4z,  k_atlas_zg8_h4z, k_atlas_zg13_h4z, k_cms_zg_h4z, k_cms_zg8_h4z, k_cms_zg8_h4z2, 
 	k_atlas_zz_f4g, k_atlas_zz8_f4g,  k_atlas_zz13_f4g, k_cms_zz_f4g, k_cms_zz2_f4g, k_cms_zzc_f4g, k_cms_zz13_f4g, k_atlascms_zz_f4g, k_atlas_zz_f4z,  k_atlas_zz8_f4z,  k_atlas_zz13_f4z, k_cms_zz_f4z,  k_cms_zz2_f4z, k_cms_zzc_f4z, k_cms_zz13_f4z, k_atlascms_zz_f4z, k_atlas_zz_f5g,  k_atlas_zz8_f5g,  k_atlas_zz13_f5g, k_cms_zz_f5g,  k_cms_zz2_f5g, k_cms_zzc_f5g, k_cms_zz13_f5g, k_atlascms_zz_f5g, k_atlas_zz_f5z,   k_atlas_zz8_f5z, k_atlas_zz13_f5z, k_cms_zz_f5z, k_cms_zz2_f5z, k_cms_zzc_f5z, k_cms_zz13_f5z, k_atlascms_zz_f5z,
 k_cms_wwg8_a0w, k_cms_ssww8_a0w, k_atlas_ggww8_a0w, k_cms_ggww_a0w, k_cms_ggww8_a0w,  k_cms_wwg8_acw, k_cms_ssww8_acw, k_atlas_ggww8_acw, k_cms_ggww_acw, k_cms_ggww8_acw, 
@@ -12,7 +12,7 @@ k_cms_wwg8_a0w, k_cms_ssww8_a0w, k_atlas_ggww8_a0w, k_cms_ggww_a0w, k_cms_ggww8_
 
 // Available plot sets
 bool catgcg = false;
-bool catgcz = false;
+bool catgcz = true;
 bool natgcg = false;
 bool natgcz = false;
 
@@ -21,15 +21,15 @@ bool atgc = catgcg||catgcz||natgcg||natgcz;
 bool aqgc_a = false;
 bool aqgc_ft = false; 
 bool aqgc_fm = false;
-bool aqgc_fs = true;
+bool aqgc_fs = false;
 
 bool aqgc = aqgc_a||aqgc_fs||aqgc_fm||aqgc_ft;
 
 bool lineStyles = false;
 
-bool aqgc_wg8 = true;
-bool aqgc_zg8 = true;
-bool aqgc_zz13 = true;
+bool aqgc_wg8 = false;
+bool aqgc_zg8 = false;
+bool aqgc_zz13 = false;
 
 float scale_h3 = 100;
 float scale_h4 = 10000;
@@ -556,6 +556,38 @@ if (catgcg) {
 if (catgcz)
   {
 
+// SMP-18-008
+
+  chanName[k_cms_wv13_2016_dkz]            = "#Delta#kappa_{Z}";
+  chanMeasurement[k_cms_wv13_2016_dkz]     = "WV (l#nuJ)";
+  chanLumi[k_cms_wv13_2016_dkz]            = "35.9 fb^{-1}";
+  chanSqrtS[k_cms_wv13_2016_dkz]          = "13 TeV";
+  chanExp[k_cms_wv13_2016_dkz]            = "CMS";
+  chanaCC[k_cms_wv13_2016_dkz]  = 0.0   * scale_;
+  chanaCM[k_cms_wv13_2016_dkz]  = -0.0079 * scale_;
+  chanaCP[k_cms_wv13_2016_dkz]  = +0.0082 * scale_;
+  plotChan[k_cms_wv13_2016_dkz] = true;
+
+  chanName[k_cms_wv13_2016_lz]            = "#lambda_{Z}";
+  chanMeasurement[k_cms_wv13_2016_lz]     = "WV (l#nuJ)";
+  chanLumi[k_cms_wv13_2016_lz]            = "35.9 fb^{-1}";
+  chanSqrtS[k_cms_wv13_2016_lz]          = "13 TeV";
+  chanExp[k_cms_wv13_2016_lz]            = "CMS";
+  chanaCC[k_cms_wv13_2016_lz]  = 0.0   * scale_;
+  chanaCM[k_cms_wv13_2016_lz]  = -0.0065 * scale_;
+  chanaCP[k_cms_wv13_2016_lz]  = +0.0066 * scale_;
+  plotChan[k_cms_wv13_2016_lz] = true;
+
+  chanName[k_cms_wv13_2016_dgz]            = "#Deltag^{Z}_{1}";
+  chanMeasurement[k_cms_wv13_2016_dgz]     = "WV (l#nuJ)";
+  chanLumi[k_cms_wv13_2016_dgz]            = "35.9 fb^{-1}";
+  chanSqrtS[k_cms_wv13_2016_dgz]          = "13 TeV";
+  chanExp[k_cms_wv13_2016_dgz]            = "CMS";
+  chanaCC[k_cms_wv13_2016_dgz]  = 0.0   * scale_;
+  chanaCM[k_cms_wv13_2016_dgz]  = -0.0061 * scale_;
+  chanaCP[k_cms_wv13_2016_dgz]  = +0.0074 * scale_;
+  plotChan[k_cms_wv13_2016_dgz] = true;
+
 // ATLAS http://arxiv.org/abs/1210.2979 submitted to Phys. Rev. D
 
   // http://arxiv.org/abs/1603.01702, https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/STDM-2013-07/#auxstuff
@@ -684,8 +716,6 @@ if (catgcz)
   chanaCM[k_lep_ww_dkz]  = -0.074 * scale_; 
   chanaCP[k_lep_ww_dkz]  = +0.051 * scale_; 
   plotChan[k_lep_ww_dkz] = true;
-
-
 
 // ATLAS http://arxiv.org/abs/1210.2979 submitted to Phys. Rev. D
 
@@ -904,7 +934,6 @@ if (catgcz)
   chanaCM[k_lep_ww_lz]  = -0.059 * scale_; 
   chanaCP[k_lep_ww_lz]  = +0.017 * scale_; 
   plotChan[k_lep_ww_lz] = true;
-
 
   // http://arxiv.org/abs/1603.01702, https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/STDM-2013-07/#auxstuff
 
