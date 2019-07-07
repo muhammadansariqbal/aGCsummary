@@ -35,7 +35,7 @@ float labelSizeY = 0.045;
 float tickLengthX  = 0.03;
 int ndivx = 506;
 int ndivy = 506;
-float aspR = 1.4; 
+float aspR = 1.2; 
 
 // plot type
 bool _natgcz;
@@ -253,8 +253,8 @@ aGC(float ymin=-2.0, float ymax=900000 )
 
 	txt[ntxt] = "Channel";
 	txtSize[ntxt] = size_-0.005;
-	txtX[ntxt] = 0.3*maxRange;
-	txtY[ntxt] = nPlotChan +1.55*DY_;
+	txtX[ntxt] = 0.28*maxRange;
+	txtY[ntxt] = nPlotChan +1.75*DY_;
 	txtAlign[ntxt] = 12;
 	txtFont[ntxt] = 42;
 	ntxt++;
@@ -262,32 +262,32 @@ aGC(float ymin=-2.0, float ymax=900000 )
 
 	txt[ntxt] = "Limits";
 	txtSize[ntxt] = size_-0.005;
-	txtX[ntxt] = 0.54*maxRange;
-	txtY[ntxt] = nPlotChan +1.55*DY_;
+	txtX[ntxt] = 0.52*maxRange;
+	txtY[ntxt] = nPlotChan +1.75*DY_;
 	txtAlign[ntxt] = 12;
 	txtFont[ntxt] = 42;
 	ntxt++;
 
 	txt[ntxt] = "#int";
 	txtSize[ntxt] = size_-0.016;
-	txtX[ntxt] = 0.75*maxRange;
-	txtY[ntxt] = nPlotChan +1.50*DY_;
+	txtX[ntxt] = 0.73*maxRange;
+	txtY[ntxt] = nPlotChan +1.70*DY_;
 	txtAlign[ntxt] = 12;
 	txtFont[ntxt] = 42;
 	ntxt++;
 
-	txt[ntxt] = "#it{L}dt";
+	txt[ntxt] = "#it{L}dt [fb^{-1}]";
 	txtSize[ntxt] = size_-0.005;
-	txtX[ntxt] = 0.76*maxRange;
-	txtY[ntxt] = nPlotChan +1.55*DY_;
+	txtX[ntxt] = 0.74*maxRange;
+	txtY[ntxt] = nPlotChan +1.75*DY_;
 	txtAlign[ntxt] = 12;
 	txtFont[ntxt] = 42;
 	ntxt++;
 
-	txt[ntxt] = "#sqrt{s}";
+	txt[ntxt] = "#sqrt{s} [TeV]";
 	txtSize[ntxt] = size_-0.005;
-	txtX[ntxt] = 0.88*maxRange;
-	txtY[ntxt] = nPlotChan +1.55*DY_;
+	txtX[ntxt] = 0.86*maxRange;
+	txtY[ntxt] = nPlotChan +1.75*DY_;
 	txtAlign[ntxt] = 12;
 	txtFont[ntxt] = 42;
 	ntxt++;
@@ -322,10 +322,10 @@ aGC(float ymin=-2.0, float ymax=900000 )
   TAxis* ax_ = h_->GetXaxis();
   TAxis* ay_ = h_->GetYaxis();
   
-  if (aqgc_a) ax_->SetTitle("WW#gamma#gamma aQGC Limits @95% C.L. [TeV^{-2}]");
-  if (aqgc_fm||aqgc_ft||aqgc_fs) ax_->SetTitle("aQGC Limits @95% C.L. [TeV^{-4}]");
-  if (atgc) ax_->SetTitle("aTGC Limits @95% C.L.");
-  if (_natgcg) ax_->SetTitle("aTGC Limits @95% C.L.          ");
+  if (aqgc_a) ax_->SetTitle("WW#gamma#gamma aQGC Limits @95% CL [TeV^{-2}]");
+  if (aqgc_fm||aqgc_ft||aqgc_fs) ax_->SetTitle("aQGC Limits @95% CL [TeV^{-4}]");
+  if (atgc) ax_->SetTitle("aTGC Limits @95% CL");
+  if (_natgcg) ax_->SetTitle("aTGC Limits @95% CL          ");
   ax_->SetNdivisions(ndivx);
   ax_->SetTitleOffset(titleOffsetX);
   ax_->SetTitleSize(titleSizeX);
@@ -386,7 +386,7 @@ aGC(float ymin=-2.0, float ymax=900000 )
   	  txtFont[ntxt] = 42;
   	  ntxt++;
 
-  	  txt[ntxt] = "Fit Value";
+  	  txt[ntxt] = "fit value";
   	  txtSize[ntxt] = 0.020;
   	  txtX[ntxt] = xx_ - 0.28*maxRange;
   	  txtY[ntxt] = yy_-dyy_*3.3;
@@ -517,7 +517,7 @@ void text_init()
 
   txt[1] = "March 2019";
   txtSize[1] = 0.028;
-  txtX[1] = 0.1;
+  txtX[1] = 0.115;
   txtY[1] = 0.96;
   txtAlign[1] = 31;
   txtNDC[1]=true;

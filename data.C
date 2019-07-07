@@ -117,9 +117,9 @@ if (catgcg) {
 
   chanName[k_atlas_wg_dkg]            = "#Delta#kappa_{#gamma}";
   chanMeasurement[k_atlas_wg_dkg]     = "W#gamma";
-  chanLumi[k_atlas_wg_dkg]            = "4.6 fb^{-1}";
+  chanLumi[k_atlas_wg_dkg]            = "4.6 ";
   chanExp[k_atlas_wg_dkg]            = "ATLAS";
-  chanSqrtS[k_atlas_wg_dkg]          = "7 TeV";
+  chanSqrtS[k_atlas_wg_dkg]          = "7 ";
   chanaCC[k_atlas_wg_dkg]  = 0.0   * scale_; 
   chanaCM[k_atlas_wg_dkg]  = -0.41 * scale_; 
   chanaCP[k_atlas_wg_dkg]  = +0.46 * scale_; 
@@ -130,7 +130,7 @@ if (catgcg) {
 // superseeded
 //   chanName[k_atlas_wg_dkg]            = "#Delta#kappa_{#gamma}";
 //   chanMeasurement[k_atlas_wg_dkg]     = "W#gamma";
-//   chanLumi[k_atlas_wg_dkg]            = "1.0 fb^{-1}";
+//   chanLumi[k_atlas_wg_dkg]            = "1.0 ";
 //   chanExp[k_atlas_wg_dkg]            = "ATLAS";
 //   chanaCC[k_atlas_wg_dkg]  = 0.0   * scale_; 
 //   chanaCM[k_atlas_wg_dkg]  = -0.33 * scale_; 
@@ -142,9 +142,9 @@ if (catgcg) {
 
   chanName[k_cms_wg_dkg]            = "#Delta#kappa_{#gamma}";
   chanMeasurement[k_cms_wg_dkg]     = "W#gamma";
-  chanLumi[k_cms_wg_dkg]            = "5.0 fb^{-1}";
+  chanLumi[k_cms_wg_dkg]            = "5.0 ";
   chanExp[k_cms_wg_dkg]            = "CMS";
-  chanSqrtS[k_cms_wg_dkg]          = "7 TeV";
+  chanSqrtS[k_cms_wg_dkg]          = "7 ";
   chanaCC[k_cms_wg_dkg]  = 0.0   * scale_; 
   chanaCM[k_cms_wg_dkg]  = -0.38 * scale_; 
   chanaCP[k_cms_wg_dkg]  = +0.29 * scale_; 
@@ -156,9 +156,9 @@ if (catgcg) {
   chan = k_atlas_ww8_dkg;
   chanName[chan]            = "#Delta#kappa_{#gamma}";
   chanMeasurement[chan]     = "WW";
-  chanLumi[chan]            = "20.3 fb^{-1}";
+  chanLumi[chan]            = "20.3 ";
   chanExp[chan]            = "ATLAS";
-  chanSqrtS[chan]          = "8 TeV";
+  chanSqrtS[chan]          = "8 ";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = ((-0.016-0.0020)/tan2thetaw) * scale_; 
   chanaCP[chan]  = ((0.027+0.0025)/tan2thetaw) * scale_;  
@@ -171,9 +171,9 @@ if (catgcg) {
 
   chanName[k_cms_ww_dkg]            = "#Delta#kappa_{#gamma}";
   chanMeasurement[k_cms_ww_dkg]     = "WW";
-  chanLumi[k_cms_ww_dkg]            = "4.9 fb^{-1}";
+  chanLumi[k_cms_ww_dkg]            = "4.9 ";
   chanExp[k_cms_ww_dkg]            = "CMS";
-  chanSqrtS[k_cms_ww_dkg]          = "7 TeV";
+  chanSqrtS[k_cms_ww_dkg]          = "7 ";
   chanaCC[k_cms_ww_dkg]  = 0.0   * scale_; 
   chanaCM[k_cms_ww_dkg]  = -0.21 * scale_; 
   chanaCP[k_cms_ww_dkg]  = +0.22 * scale_; 
@@ -183,9 +183,9 @@ if (catgcg) {
 
   chanName[k_cms_ww8_dkg]            = "#Delta#kappa_{#gamma}";
   chanMeasurement[k_cms_ww8_dkg]     = "WW";
-  chanLumi[k_cms_ww8_dkg]            = "19.4 fb^{-1}";
+  chanLumi[k_cms_ww8_dkg]            = "19.4 ";
   chanExp[k_cms_ww8_dkg]            = "CMS";
-  chanSqrtS[k_cms_ww8_dkg]          = "8 TeV";
+  chanSqrtS[k_cms_ww8_dkg]          = "8 ";
   chanaCC[k_cms_ww8_dkg]  = (-3.6-3.2) * 0.5 * 0.080385 * 0.080385  * scale_; 
   chanaCM[k_cms_ww8_dkg]  = (-11.4 - 29.2) * 0.5 * 0.080385 * 0.080385 * scale_; 
   chanaCP[k_cms_ww8_dkg]  = (5.4 + 23.9) * 0.5 * 0.080385 * 0.080385 * scale_; 
@@ -198,9 +198,9 @@ if (catgcg) {
   chan = k_atlas_wz8_dkg;
   chanName[chan]            = "#Delta#kappa_{#gamma}";
   chanMeasurement[chan]     = "WZ";
-  chanLumi[chan]            = "20.3 fb^{-1}";
+  chanLumi[chan]            = "20.3 ";
   chanExp[chan]            = "ATLAS";
-  chanSqrtS[chan]          = "8 TeV";
+  chanSqrtS[chan]          = "8 ";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = ((-0.019-0.30)/tan2thetaw) * scale_; 
   chanaCP[chan]  = ((0.029+0.19)/tan2thetaw) * scale_;  
@@ -213,9 +213,9 @@ if (catgcg) {
 
   chanName[k_atlas_wv_dkg]            = "#Delta#kappa_{#gamma}";
   chanMeasurement[k_atlas_wv_dkg]     = "WV";
-  chanLumi[k_atlas_wv_dkg]            = "4.6 fb^{-1}";
+  chanLumi[k_atlas_wv_dkg]            = "4.6 ";
   chanExp[k_atlas_wv_dkg]            = "ATLAS";
-  chanSqrtS[k_atlas_wv_dkg]          = "7 TeV";
+  chanSqrtS[k_atlas_wv_dkg]          = "7 ";
   chanaCC[k_atlas_wv_dkg]  = 0.0   * scale_; 
   chanaCM[k_atlas_wv_dkg]  = -0.21 * scale_; 
   chanaCP[k_atlas_wv_dkg]  = +0.22 * scale_; 
@@ -226,9 +226,9 @@ if (catgcg) {
 
   chanName[k_cms_wv_dkg]            = "#Delta#kappa_{#gamma}";
   chanMeasurement[k_cms_wv_dkg]     = "WV";
-  chanLumi[k_cms_wv_dkg]            = "5.0 fb^{-1}";
+  chanLumi[k_cms_wv_dkg]            = "5.0 ";
   chanExp[k_cms_wv_dkg]            = "CMS";
-  chanSqrtS[k_cms_wv_dkg]          = "7 TeV";
+  chanSqrtS[k_cms_wv_dkg]          = "7 ";
   chanaCC[k_cms_wv_dkg]  = 0.0   * scale_; 
   chanaCM[k_cms_wv_dkg]  = -0.11 * scale_; 
   chanaCP[k_cms_wv_dkg]  = +0.14 * scale_; 
@@ -237,10 +237,10 @@ if (catgcg) {
 // D0 http://arxiv.org/abs/1208.5458 Phys.Lett. B718 (2012) 451-459
 
   chanName[k_d0_vv_dkg]            = "#Delta#kappa_{#gamma}";
-  chanMeasurement[k_d0_vv_dkg]     = "D0 Comb.";
-  chanLumi[k_d0_vv_dkg]            = "8.6 fb^{-1}";
+  chanMeasurement[k_d0_vv_dkg]     = "D0 comb.";
+  chanLumi[k_d0_vv_dkg]            = "8.6 ";
   chanExp[k_d0_vv_dkg]            = "D0";
-  chanSqrtS[k_d0_vv_dkg]          = "1.96 TeV";
+  chanSqrtS[k_d0_vv_dkg]          = "1.96 ";
   chanaCC[k_d0_vv_dkg]  = 0.048   * scale_; 
   chanaCM[k_d0_vv_dkg]  = -0.158 * scale_; 
   chanaCP[k_d0_vv_dkg]  = +0.255 * scale_; 
@@ -249,8 +249,8 @@ if (catgcg) {
 
   // Shown in WW, WZ plot
 //   chanName[k_d0_vv_dk]            = "#Delta#kappa_{#gamma}";
-//   chanMeasurement[k_d0_vv_dk]     = "D0 Comb (EC #Delta#kappa)";
-//   chanLumi[k_d0_vv_dk]            = "8.6 fb^{-1}";
+//   chanMeasurement[k_d0_vv_dk]     = "D0 comb.(EC #Delta#kappa)";
+//   chanLumi[k_d0_vv_dk]            = "8.6 ";
 //   chanExp[k_d0_vv_dk]            = "D0";
 //   chanaCC[k_d0_vv_dk]  = 0.037   * scale_; 
 //   chanaCM[k_d0_vv_dk]  = -0.049 * scale_; 
@@ -263,7 +263,7 @@ if (catgcg) {
 
 //   chanName[k_d0_wgwv_dkg]            = "#Delta#kappa_{#gamma}";
 //   chanMeasurement[k_d0_wgwv_dkg]     = "W#gamma,WV";
-//   chanLumi[k_d0_wgwv_dkg]            = "1.0 fb^{-1}";
+//   chanLumi[k_d0_wgwv_dkg]            = "1.0 ";
 //   chanExp[k_d0_wgwv_dkg]            = "D0";
 //   chanaCC[k_d0_wgwv_dkg]  = 0.07   * scale_; 
 //   chanaCM[k_d0_wgwv_dkg]  = -0.29 * scale_; 
@@ -271,7 +271,7 @@ if (catgcg) {
 
 //   chanName[k_d0_wgwv_dk]            = "#Delta#kappa_{#gamma}";
 //   chanMeasurement[k_d0_wgwv_dk]     = "W#gamma,WV (EC #Delta#kappa)";
-//   chanLumi[k_d0_wgwv_dk]            = "1.0 fb^{-1}";
+//   chanLumi[k_d0_wgwv_dk]            = "1.0 ";
 //   chanExp[k_d0_wgwv_dk]            = "D0";
 //   chanaCC[k_d0_wgwv_dk]  = 0.0   * scale_; 
 //   chanaCM[k_d0_wgwv_dk]  = -0.11 * scale_; 
@@ -282,7 +282,7 @@ if (catgcg) {
 
 //  chanName[k_d0_wg_dkg]            = "#Delta#kappa_{#gamma}";
 //   chanMeasurement[k_d0_wg_dkg]     = "W#gamma";
-//   chanLumi[k_d0_wg_dkg]            = "4.2 fb^{-1}";
+//   chanLumi[k_d0_wg_dkg]            = "4.2 ";
 //   chanExp[k_d0_wg_dkg]            = "D0";
 //   chanaCC[k_d0_wg_dkg]  = 0.0   * scale_; 
 //   chanaCM[k_d0_wg_dkg]  = -0.4 * scale_; 
@@ -294,10 +294,10 @@ if (catgcg) {
 
 
   chanName[k_lep_ww_dkg]            = "#Delta#kappa_{#gamma}";
-  chanMeasurement[k_lep_ww_dkg]     = "LEP Comb.";
-  chanLumi[k_lep_ww_dkg]            = "0.7 fb^{-1}";
+  chanMeasurement[k_lep_ww_dkg]     = "LEP comb.";
+  chanLumi[k_lep_ww_dkg]            = "0.7 ";
   chanExp[k_lep_ww_dkg]            = "LEP";
-  chanSqrtS[k_lep_ww_dkg]          = "0.20 TeV";
+  chanSqrtS[k_lep_ww_dkg]          = "0.20 ";
   chanaCC[k_lep_ww_dkg]  = -0.018   * scale_; 
   chanaCM[k_lep_ww_dkg]  = -0.099 * scale_; 
   chanaCP[k_lep_ww_dkg]  = +0.066 * scale_; 
@@ -307,9 +307,9 @@ if (catgcg) {
 
   chanName[k_atlas_wg_lg]            = "#lambda_{#gamma}";
   chanMeasurement[k_atlas_wg_lg]     = "W#gamma";
-  chanLumi[k_atlas_wg_lg]            = "4.6 fb^{-1}";
+  chanLumi[k_atlas_wg_lg]            = "4.6 ";
   chanExp[k_atlas_wg_lg]            = "ATLAS";
-  chanSqrtS[k_atlas_wg_lg]          = "7 TeV";
+  chanSqrtS[k_atlas_wg_lg]          = "7 ";
   chanaCC[k_atlas_wg_lg]  = 0.0   * scale_; 
   chanaCM[k_atlas_wg_lg]  = -0.065 * scale_; 
   chanaCP[k_atlas_wg_lg]  = +0.061 * scale_; 
@@ -321,7 +321,7 @@ if (catgcg) {
 
 //  chanName[k_atlas_wg_lg]            = "#lambda_{#gamma}";
 //   chanMeasurement[k_atlas_wg_lg]     = "W#gamma";
-//   chanLumi[k_atlas_wg_lg]            = "1.0 fb^{-1}";
+//   chanLumi[k_atlas_wg_lg]            = "1.0 ";
 //   chanExp[k_atlas_wg_lg]            = "ATLAS";
 //   chanaCC[k_atlas_wg_lg]  = 0.0   * scale_; 
 //   chanaCM[k_atlas_wg_lg]  = -0.060 * scale_; 
@@ -332,9 +332,9 @@ if (catgcg) {
 
  chanName[k_cms_wg_lg]            = "#lambda_{#gamma}";
   chanMeasurement[k_cms_wg_lg]     = "W#gamma";
-  chanLumi[k_cms_wg_lg]            = "5.0 fb^{-1}";
+  chanLumi[k_cms_wg_lg]            = "5.0 ";
   chanExp[k_cms_wg_lg]            = "CMS";
-  chanSqrtS[k_cms_wg_lg]          = "7 TeV";
+  chanSqrtS[k_cms_wg_lg]          = "7 ";
   chanaCC[k_cms_wg_lg]  = 0.0   * scale_; 
   chanaCM[k_cms_wg_lg]  = -0.050 * scale_; 
   chanaCP[k_cms_wg_lg]  = +0.037 * scale_; 
@@ -346,9 +346,9 @@ if (catgcg) {
   chan = k_atlas_ww8_lg;
   chanName[chan]            = "#lambda_{#gamma}";
   chanMeasurement[chan]     = "WW";
-  chanLumi[chan]            = "20.3 fb^{-1}";
+  chanLumi[chan]            = "20.3 ";
   chanExp[chan]            = "ATLAS";
-  chanSqrtS[chan]          = "8 TeV";
+  chanSqrtS[chan]          = "8 ";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.019 * scale_; 
   chanaCP[chan]  =  0.019 * scale_;  
@@ -359,9 +359,9 @@ if (catgcg) {
 
  chanName[k_cms_ww_lg]            = "#lambda_{#gamma}";
   chanMeasurement[k_cms_ww_lg]     = "WW";
-  chanLumi[k_cms_ww_lg]            = "4.9 fb^{-1}";
+  chanLumi[k_cms_ww_lg]            = "4.9 ";
   chanExp[k_cms_ww_lg]            = "CMS";
-  chanSqrtS[k_cms_ww_lg]          = "7 TeV";
+  chanSqrtS[k_cms_ww_lg]          = "7 ";
   chanaCC[k_cms_ww_lg]  = 0.0   * scale_; 
   chanaCM[k_cms_ww_lg]  = -0.048 * scale_; 
   chanaCP[k_cms_ww_lg]  = +0.048 * scale_; 
@@ -371,9 +371,9 @@ if (catgcg) {
 
  chanName[k_cms_ww8_lg]            = "#lambda_{#gamma}";
   chanMeasurement[k_cms_ww8_lg]     = "WW";
-  chanLumi[k_cms_ww8_lg]            = "19.4 fb^{-1}";
+  chanLumi[k_cms_ww8_lg]            = "19.4 ";
   chanExp[k_cms_ww8_lg]            = "CMS";
-  chanSqrtS[k_cms_ww8_lg]          = "8 TeV";
+  chanSqrtS[k_cms_ww8_lg]          = "8 ";
   chanaCC[k_cms_ww8_lg]  = 0.1  * 1.5 * (8 * 0.70710678118 * 1.16637e-5 * 80.385 * 80.385) *  0.080385 * 0.080385  * scale_; 
   chanaCM[k_cms_ww8_lg]  = -5.7 * 1.5 * (8 * 0.70710678118 * 1.16637e-5 * 80.385 * 80.385) *  0.080385 * 0.080385 * scale_; 
   chanaCP[k_cms_ww8_lg]  = 5.9 * 1.5 * (8 * 0.70710678118 * 1.16637e-5 * 80.385 * 80.385) *  0.080385 * 0.080385 * scale_; 
@@ -385,9 +385,9 @@ if (catgcg) {
   chan = k_atlas_wz8_lg;
   chanName[chan]            = "#lambda_{#gamma}";
   chanMeasurement[chan]     = "WZ";
-  chanLumi[chan]            = "20.3 fb^{-1}";
+  chanLumi[chan]            = "20.3 ";
   chanExp[chan]            = "ATLAS";
-  chanSqrtS[chan]          = "8 TeV";
+  chanSqrtS[chan]          = "8 ";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  =  -0.016 * scale_; 
   chanaCP[chan]  =  0.016 * scale_;  
@@ -399,9 +399,9 @@ if (catgcg) {
 
   chanName[k_atlas_wv_lg]            = "#lambda_{#gamma}";
   chanMeasurement[k_atlas_wv_lg]     = "WV";
-  chanLumi[k_atlas_wv_lg]            = "4.6 fb^{-1}";
+  chanLumi[k_atlas_wv_lg]            = "4.6 ";
   chanExp[k_atlas_wv_lg]            = "ATLAS";
-  chanSqrtS[k_atlas_wv_lg]          = "7 TeV";
+  chanSqrtS[k_atlas_wv_lg]          = "7 ";
   chanaCC[k_atlas_wv_lg]  = 0.0   * scale_; 
   chanaCM[k_atlas_wv_lg]  = -0.039 * scale_; 
   chanaCP[k_atlas_wv_lg]  = +0.040 * scale_; 
@@ -412,8 +412,8 @@ if (catgcg) {
 
   chanName[k_cms_wv_lg]            = "#lambda_{#gamma}";
   chanMeasurement[k_cms_wv_lg]     = "WV";
-  chanLumi[k_cms_wv_lg]            = "5.0 fb^{-1}";
-  chanSqrtS[k_cms_wv_lg]          = "7 TeV";
+  chanLumi[k_cms_wv_lg]            = "5.0 ";
+  chanSqrtS[k_cms_wv_lg]          = "7 ";
   chanExp[k_cms_wv_lg]            = "CMS";
   chanaCC[k_cms_wv_lg]  = 0.0   * scale_; 
   chanaCM[k_cms_wv_lg]  = -0.038 * scale_; 
@@ -423,9 +423,9 @@ if (catgcg) {
 // D0 http://arxiv.org/abs/1208.5458 Phys.Lett. B718 (2012) 451-459
 
   chanName[k_d0_vv_lg]            = "#lambda_{#gamma}";
-  chanMeasurement[k_d0_vv_lg]     = "D0 Comb.";
-  chanLumi[k_d0_vv_lg]            = "8.6 fb^{-1}";
-  chanSqrtS[k_d0_vv_lg]          = "1.96 TeV";
+  chanMeasurement[k_d0_vv_lg]     = "D0 comb.";
+  chanLumi[k_d0_vv_lg]            = "8.6 ";
+  chanSqrtS[k_d0_vv_lg]          = "1.96 ";
   chanExp[k_d0_vv_lg]            = "D0";
   chanaCC[k_d0_vv_lg]  = 0.007   * scale_; 
   chanaCM[k_d0_vv_lg]  = -0.036 * scale_; 
@@ -441,7 +441,7 @@ if (catgcg) {
 
 //   chanName[k_d0_wg_lg]            = "#lambda_{#gamma}";
 //   chanMeasurement[k_d0_wg_lg]     = "W#gamma";
-//   chanLumi[k_d0_wg_lg]            = "4.2 fb^{-1}";
+//   chanLumi[k_d0_wg_lg]            = "4.2 ";
 //   chanExp[k_d0_wg_lg]            = "D0";
 //   chanaCC[k_d0_wg_lg]  = 0.0   * scale_; 
 //   chanaCM[k_d0_wg_lg]  = -0.08 * scale_; 
@@ -457,7 +457,7 @@ if (catgcg) {
 
 //   chanName[k_d0_wgwv_l]            = "#lambda_{#gamma}";
 //   chanMeasurement[k_d0_wgwv_l]     = "W#gamma,WV (EC #lambda)";
-//   chanLumi[k_d0_wgwv_l]            = "1.0 fb^{-1}";
+//   chanLumi[k_d0_wgwv_l]            = "1.0 ";
 //   chanExp[k_d0_wgwv_l]            = "D0";
 //   chanaCC[k_d0_wgwv_l]  = 0.0   * scale_; 
 //   chanaCM[k_d0_wgwv_l]  = -0.08 * scale_; 
@@ -467,9 +467,9 @@ if (catgcg) {
 
 
   chanName[k_lep_ww_lg]            = "#lambda_{#gamma}";
-  chanMeasurement[k_lep_ww_lg]     = "LEP Comb.";
-  chanLumi[k_lep_ww_lg]            = "0.7 fb^{-1}";
-  chanSqrtS[k_lep_ww_lg]          = "0.20 TeV";
+  chanMeasurement[k_lep_ww_lg]     = "LEP comb.";
+  chanLumi[k_lep_ww_lg]            = "0.7 ";
+  chanSqrtS[k_lep_ww_lg]          = "0.20 ";
   chanExp[k_lep_ww_lg]            = "LEP";
   chanaCC[k_lep_ww_lg]  = -0.022   * scale_; 
   chanaCM[k_lep_ww_lg]  = -0.059 * scale_; 
@@ -483,9 +483,9 @@ if (catgcg) {
   chan = k_cms_wv8_dkg;
   chanName[chan]            = "#Delta#kappa_{#gamma}";
   chanMeasurement[chan]     = "WV";
-  chanLumi[chan]            = "19 fb^{-1}";
+  chanLumi[chan]            = "19 ";
   chanExp[chan]            = "CMS";
-  chanSqrtS[chan]          = "8 TeV";
+  chanSqrtS[chan]          = "8 ";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.044 * scale_; 
   chanaCP[chan]  = +0.063 * scale_; 
@@ -494,8 +494,8 @@ if (catgcg) {
   chan = k_cms_wv8_lg;
   chanName[chan]            = "#lambda_{#gamma}";
   chanMeasurement[chan]     = "WV";
-  chanLumi[chan]            = "19 fb^{-1}";
-  chanSqrtS[chan]          = "8 TeV";
+  chanLumi[chan]            = "19 ";
+  chanSqrtS[chan]          = "8 ";
   chanExp[chan]            = "CMS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.011 * scale_; 
@@ -508,9 +508,9 @@ if (catgcg) {
   chan = k_atlas_wvjj8_dkg;
   chanName[chan]            = "#Delta#kappa_{#gamma}";
   chanMeasurement[chan]     = "WV (l#nujj)";
-  chanLumi[chan]            = "20.2 fb^{-1}";
+  chanLumi[chan]            = "20.2 ";
   chanExp[chan]            = "ATLAS";
-  chanSqrtS[chan]          = "8 TeV";
+  chanSqrtS[chan]          = "8 ";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.11 * scale_; 
   chanaCP[chan]  = +0.13 * scale_; 
@@ -519,8 +519,8 @@ if (catgcg) {
   chan = k_atlas_wvjj8_lg;
   chanName[chan]            = "#lambda_{#gamma}";
   chanMeasurement[chan]     = "WV (l#nujj)";
-  chanLumi[chan]            = "20.2 fb^{-1}";
-  chanSqrtS[chan]          = "8 TeV";
+  chanLumi[chan]            = "20.2 ";
+  chanSqrtS[chan]          = "8 ";
   chanExp[chan]            = "ATLAS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.022 * scale_; 
@@ -530,9 +530,9 @@ if (catgcg) {
    chan = k_atlas_wvJ8_dkg;
   chanName[chan]            = "#Delta#kappa_{#gamma}";
   chanMeasurement[chan]     = "WV (l#nuJ)";
-  chanLumi[chan]            = "20.2 fb^{-1}";
+  chanLumi[chan]            = "20.2 ";
   chanExp[chan]            = "ATLAS";
-  chanSqrtS[chan]          = "8 TeV";
+  chanSqrtS[chan]          = "8 ";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.061 * scale_; 
   chanaCP[chan]  = +0.064 * scale_; 
@@ -541,8 +541,8 @@ if (catgcg) {
   chan = k_atlas_wvJ8_lg;
   chanName[chan]            = "#lambda_{#gamma}";
   chanMeasurement[chan]     = "WV (l#nuJ)";
-  chanLumi[chan]            = "20.2 fb^{-1}";
-  chanSqrtS[chan]          = "8 TeV";
+  chanLumi[chan]            = "20.2 ";
+  chanSqrtS[chan]          = "8 ";
   chanExp[chan]            = "ATLAS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.013 * scale_; 
@@ -560,8 +560,8 @@ if (catgcz)
 
   chanName[k_cms_wv13_2016_dkz]            = "#Delta#kappa_{Z}";
   chanMeasurement[k_cms_wv13_2016_dkz]     = "WV (l#nuJ)";
-  chanLumi[k_cms_wv13_2016_dkz]            = "35.9 fb^{-1}";
-  chanSqrtS[k_cms_wv13_2016_dkz]          = "13 TeV";
+  chanLumi[k_cms_wv13_2016_dkz]            = "35.9 ";
+  chanSqrtS[k_cms_wv13_2016_dkz]          = "13 ";
   chanExp[k_cms_wv13_2016_dkz]            = "CMS";
   chanaCC[k_cms_wv13_2016_dkz]  = 0.0   * scale_;
   chanaCM[k_cms_wv13_2016_dkz]  = -0.0079 * scale_;
@@ -570,8 +570,8 @@ if (catgcz)
 
   chanName[k_cms_wv13_2016_lz]            = "#lambda_{Z}";
   chanMeasurement[k_cms_wv13_2016_lz]     = "WV (l#nuJ)";
-  chanLumi[k_cms_wv13_2016_lz]            = "35.9 fb^{-1}";
-  chanSqrtS[k_cms_wv13_2016_lz]          = "13 TeV";
+  chanLumi[k_cms_wv13_2016_lz]            = "35.9 ";
+  chanSqrtS[k_cms_wv13_2016_lz]          = "13 ";
   chanExp[k_cms_wv13_2016_lz]            = "CMS";
   chanaCC[k_cms_wv13_2016_lz]  = 0.0   * scale_;
   chanaCM[k_cms_wv13_2016_lz]  = -0.0065 * scale_;
@@ -580,8 +580,8 @@ if (catgcz)
 
   chanName[k_cms_wv13_2016_dgz]            = "#Deltag^{Z}_{1}";
   chanMeasurement[k_cms_wv13_2016_dgz]     = "WV (l#nuJ)";
-  chanLumi[k_cms_wv13_2016_dgz]            = "35.9 fb^{-1}";
-  chanSqrtS[k_cms_wv13_2016_dgz]          = "13 TeV";
+  chanLumi[k_cms_wv13_2016_dgz]            = "35.9 ";
+  chanSqrtS[k_cms_wv13_2016_dgz]          = "13 ";
   chanExp[k_cms_wv13_2016_dgz]            = "CMS";
   chanaCC[k_cms_wv13_2016_dgz]  = 0.0   * scale_;
   chanaCM[k_cms_wv13_2016_dgz]  = -0.0061 * scale_;
@@ -595,9 +595,9 @@ if (catgcz)
   chan = k_atlas_ww8_dkz;
   chanName[chan]            = "#Delta#kappa_{Z}";
   chanMeasurement[chan]     = "WW";
-  chanLumi[chan]            = "20.3 fb^{-1}";
+  chanLumi[chan]            = "20.3 ";
   chanExp[chan]            = "ATLAS";
-  chanSqrtS[chan]          = "8 TeV";
+  chanSqrtS[chan]          = "8 ";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.025 * scale_; 
   chanaCP[chan]  =  0.020 * scale_;  
@@ -606,8 +606,8 @@ if (catgcz)
 
   chanName[k_atlas_ww_dkz]            = "#Delta#kappa_{Z}";
   chanMeasurement[k_atlas_ww_dkz]     = "WW";
-  chanLumi[k_atlas_ww_dkz]            = "4.6 fb^{-1}";
-  chanSqrtS[k_atlas_ww_dkz]          = "7 TeV";
+  chanLumi[k_atlas_ww_dkz]            = "4.6 ";
+  chanSqrtS[k_atlas_ww_dkz]          = "7 ";
   chanExp[k_atlas_ww_dkz]            = "ATLAS";
   chanaCC[k_atlas_ww_dkz]  = 0.0   * scale_; 
   chanaCM[k_atlas_ww_dkz]  = -0.043 * scale_; 
@@ -619,8 +619,8 @@ if (catgcz)
 
   chanName[k_cms_ww8_dkz]            = "#Delta#kappa_{Z}";
   chanMeasurement[k_cms_ww8_dkz]     = "WW";
-  chanLumi[k_cms_ww8_dkz]            = "19.4 fb^{-1}";
-  chanSqrtS[k_cms_ww8_dkz]          = "8 TeV";
+  chanLumi[k_cms_ww8_dkz]            = "19.4 ";
+  chanSqrtS[k_cms_ww8_dkz]          = "8 ";
   chanExp[k_cms_ww8_dkz]            = "CMS";
   chanaCC[k_cms_ww8_dkz]  =     (-3.6 + 3.2*0.30082992949) * 0.5 * 0.080385 * 0.080385 * scale_; 
   chanaCM[k_cms_ww8_dkz]  = (-11.4 - 23.9*0.30082992949) * 0.5 * 0.080385 * 0.080385 * scale_; 
@@ -632,9 +632,9 @@ if (catgcz)
   chan = k_atlas_wz8_dkz;
   chanName[chan]            = "#Delta#kappa_{Z}";
   chanMeasurement[chan]     = "WZ";
-  chanLumi[chan]            = "20.3 fb^{-1}";
+  chanLumi[chan]            = "20.3 ";
   chanExp[chan]            = "ATLAS";
-  chanSqrtS[chan]          = "8 TeV";
+  chanSqrtS[chan]          = "8 ";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  =  -0.19 * scale_; 
   chanaCP[chan]  =  0.30 * scale_;  
@@ -645,9 +645,9 @@ if (catgcz)
   chan = k_atlas_wz13_dkz;
   chanName[chan]            = "#Delta#kappa_{Z}";
   chanMeasurement[chan]     = "WZ";
-  chanLumi[chan]            = "13.3 fb^{-1}";
+  chanLumi[chan]            = "13.3 ";
   chanExp[chan]            = "ATLAS";
-  chanSqrtS[chan]          = "13 TeV";
+  chanSqrtS[chan]          = "13 ";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  =  -0.15 * scale_; 
   chanaCP[chan]  =  0.26 * scale_;  
@@ -657,9 +657,9 @@ if (catgcz)
   chan = k_atlas_wz813_dkz;
   chanName[chan]            = "#Delta#kappa_{Z}";
   chanMeasurement[chan]     = "WZ";
-  chanLumi[chan]            = "33.6 fb^{-1}";
+  chanLumi[chan]            = "33.6 ";
   chanExp[chan]            = "ATLAS";
-  chanSqrtS[chan]          = "8,13 TeV";
+  chanSqrtS[chan]          = "8,13 ";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  =  -0.13 * scale_; 
   chanaCP[chan]  =  0.24 * scale_;  
@@ -672,7 +672,7 @@ if (catgcz)
 
    chanName[k_atlas_wz_dkz]            = "#Delta#kappa_{Z}";
    chanMeasurement[k_atlas_wz_dkz]     = "WZ";
-   chanLumi[k_atlas_wz_dkz]            = "4.6 fb^{-1}";
+   chanLumi[k_atlas_wz_dkz]            = "4.6 ";
    chanExp[k_atlas_wz_dkz]            = "ATLAS";
    chanaCC[k_atlas_wz_dkz]  = 0.0   * scale_; 
    chanaCM[k_atlas_wz_dkz]  = -0.37 * scale_; 
@@ -684,8 +684,8 @@ if (catgcz)
 
   chanName[k_atlas_wv_dkz]            = "#Delta#kappa_{Z}";
   chanMeasurement[k_atlas_wv_dkz]     = "WV";
-  chanLumi[k_atlas_wv_dkz]            = "4.6 fb^{-1}";
-  chanSqrtS[k_atlas_wv_dkz]          = "7 TeV";
+  chanLumi[k_atlas_wv_dkz]            = "4.6 ";
+  chanSqrtS[k_atlas_wv_dkz]          = "7 ";
   chanExp[k_atlas_wv_dkz]            = "ATLAS";
   chanaCC[k_atlas_wv_dkz]  = 0.0   * scale_; 
   chanaCM[k_atlas_wv_dkz]  = -0.090 * scale_; 
@@ -697,8 +697,8 @@ if (catgcz)
 
   chanName[k_cms_wv_dkz]            = "#Delta#kappa_{Z}";
   chanMeasurement[k_cms_wv_dkz]     = "WV";
-  chanLumi[k_cms_wv_dkz]            = "5.0 fb^{-1}";
-  chanSqrtS[k_cms_wv_dkz]          = "7 TeV";
+  chanLumi[k_cms_wv_dkz]            = "5.0 ";
+  chanSqrtS[k_cms_wv_dkz]          = "7 ";
   chanExp[k_cms_wv_dkz]            = "CMS";
   chanaCC[k_cms_wv_dkz]  = 0.0   * scale_; 
   chanaCM[k_cms_wv_dkz]  = -0.043 * scale_; 
@@ -708,9 +708,9 @@ if (catgcz)
 // LEP  hep-ex/0212036 and hep-ex/0307056, http://arxiv.org/abs/1302.3415
 
   chanName[k_lep_ww_dkz]            = "#Delta#kappa_{Z}";
-  chanMeasurement[k_lep_ww_dkz]     = "LEP Comb.";
-  chanLumi[k_lep_ww_dkz]            = "0.7 fb^{-1}";
-  chanSqrtS[k_lep_ww_dkz]          = "0.20 TeV";
+  chanMeasurement[k_lep_ww_dkz]     = "LEP comb.";
+  chanLumi[k_lep_ww_dkz]            = "0.7 ";
+  chanSqrtS[k_lep_ww_dkz]          = "0.20 ";
  chanExp[k_lep_ww_dkz]            = "LEP";
   chanaCC[k_lep_ww_dkz]  = -0.011   * scale_; 
   chanaCM[k_lep_ww_dkz]  = -0.074 * scale_; 
@@ -721,7 +721,7 @@ if (catgcz)
 
 //   chanName[k_atlas_ww_dk]            = "#Delta#kappa_{Z}";
 //   chanMeasurement[k_atlas_ww_dk]     = "WW (EC #Delta#kappa)";
-//   chanLumi[k_atlas_ww_dk]            = "4.6 fb^{-1}";
+//   chanLumi[k_atlas_ww_dk]            = "4.6 ";
 //   chanExp[k_atlas_ww_dk]            = "ATLAS";
 //   chanaCC[k_atlas_ww_dk]  = 0.0   * scale_; 
 //   chanaCM[k_atlas_ww_dk]  = -0.061 * scale_; 
@@ -738,8 +738,8 @@ if (catgcz)
 // D0 http://arxiv.org/abs/1208.5458 Phys.Lett. B718 (2012) 451-459
 
 //   chanName[k_d0_vv_dk]            = "#Delta#kappa_{Z}";
-//   chanMeasurement[k_d0_vv_dk]     = "D0 Comb (EC #Delta#kappa)";
-//   chanLumi[k_d0_vv_dk]            = "8.6 fb^{-1}";
+//   chanMeasurement[k_d0_vv_dk]     = "D0 comb.(EC #Delta#kappa)";
+//   chanLumi[k_d0_vv_dk]            = "8.6 ";
 //   chanExp[k_d0_vv_dk]            = "D0";
 //   chanaCC[k_d0_vv_dk]  = 0.037   * scale_; 
 //   chanaCM[k_d0_vv_dk]  = -0.049 * scale_; 
@@ -753,9 +753,9 @@ if (catgcz)
   chan = k_atlas_ww8_lz;
   chanName[chan]            = "#lambda_{Z}";
   chanMeasurement[chan]     = "WW";
-  chanLumi[chan]            = "20.3 fb^{-1}";
+  chanLumi[chan]            = "20.3 ";
   chanExp[chan]            = "ATLAS";
-  chanSqrtS[chan]          = "8 TeV";
+  chanSqrtS[chan]          = "8 ";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.019 * scale_; 
   chanaCP[chan]  =  0.019 * scale_;  
@@ -766,8 +766,8 @@ if (catgcz)
 
  chanName[k_atlas_ww_lz]            = "#lambda_{Z}";
   chanMeasurement[k_atlas_ww_lz]     = "WW";
-  chanLumi[k_atlas_ww_lz]            = "4.6 fb^{-1}";
-  chanSqrtS[k_atlas_ww_lz]          = "7 TeV";
+  chanLumi[k_atlas_ww_lz]            = "4.6 ";
+  chanSqrtS[k_atlas_ww_lz]          = "7 ";
   chanExp[k_atlas_ww_lz]            = "ATLAS";
   chanaCC[k_atlas_ww_lz]  = 0.0   * scale_; 
   chanaCM[k_atlas_ww_lz]  = -0.062 * scale_; 
@@ -779,8 +779,8 @@ if (catgcz)
 
  chanName[k_cms_ww_lz]            = "#lambda_{Z}";
   chanMeasurement[k_cms_ww_lz]     = "WW";
-  chanLumi[k_cms_ww_lz]            = "4.9 fb^{-1}";
-  chanSqrtS[k_cms_ww_lz]          = "7 TeV";
+  chanLumi[k_cms_ww_lz]            = "4.9 ";
+  chanSqrtS[k_cms_ww_lz]          = "7 ";
   chanExp[k_cms_ww_lz]            = "CMS";
   chanaCC[k_cms_ww_lz]  = 0.0   * scale_; 
   chanaCM[k_cms_ww_lz]  = -0.048 * scale_; 
@@ -791,8 +791,8 @@ if (catgcz)
 
  chanName[k_cms_ww8_lz]            = "#lambda_{Z}";
   chanMeasurement[k_cms_ww8_lz]     = "WW";
-  chanLumi[k_cms_ww8_lz]            = "19.4 fb^{-1}";
-  chanSqrtS[k_cms_ww8_lz]          = "8 TeV";
+  chanLumi[k_cms_ww8_lz]            = "19.4 ";
+  chanSqrtS[k_cms_ww8_lz]          = "8 ";
   chanExp[k_cms_ww8_lz]            = "CMS";
   chanaCC[k_cms_ww8_lz]  = 0.1 * 1.5 * (8 * 0.70710678118 * 1.16637e-5 * 80.385 * 80.385) *  0.080385 * 0.080385  * scale_; 
   chanaCM[k_cms_ww8_lz]  = -5.7 * 1.5 * (8 * 0.70710678118 * 1.16637e-5 * 80.385 * 80.385) *  0.080385 * 0.080385 * scale_; 
@@ -805,9 +805,9 @@ if (catgcz)
   chan = k_atlas_wz8_lz;
   chanName[chan]            = "#lambda_{Z}";
   chanMeasurement[chan]     = "WZ";
-  chanLumi[chan]            = "20.3 fb^{-1}";
+  chanLumi[chan]            = "20.3 ";
   chanExp[chan]            = "ATLAS";
-  chanSqrtS[chan]          = "8 TeV";
+  chanSqrtS[chan]          = "8 ";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  =  -0.016 * scale_; 
   chanaCP[chan]  =  0.016 * scale_;  
@@ -818,8 +818,8 @@ if (catgcz)
 
  chanName[k_atlas_wz_lz]            = "#lambda_{Z}";
   chanMeasurement[k_atlas_wz_lz]     = "WZ";
-  chanLumi[k_atlas_wz_lz]            = "4.6 fb^{-1}";
-  chanSqrtS[k_atlas_wz_lz]          = "7 TeV";
+  chanLumi[k_atlas_wz_lz]            = "4.6 ";
+  chanSqrtS[k_atlas_wz_lz]          = "7 ";
   chanExp[k_atlas_wz_lz]            = "ATLAS";
   chanaCC[k_atlas_wz_lz]  = 0.0   * scale_; 
   chanaCM[k_atlas_wz_lz]  = -0.046 * scale_; 
@@ -830,9 +830,9 @@ if (catgcz)
   chan = k_atlas_wz13_lz;
   chanName[chan]            = "#lambda_{Z}";
   chanMeasurement[chan]     = "WZ";
-  chanLumi[chan]            = "13.3 fb^{-1}";
+  chanLumi[chan]            = "13.3 ";
   chanExp[chan]            = "ATLAS";
-  chanSqrtS[chan]          = "13 TeV";
+  chanSqrtS[chan]          = "13 ";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  =  -0.016 * scale_; 
   chanaCP[chan]  =  0.015 * scale_;  
@@ -842,9 +842,9 @@ if (catgcz)
   chan = k_atlas_wz813_lz;
   chanName[chan]            = "#lambda_{Z}";
   chanMeasurement[chan]     = "WZ";
-  chanLumi[chan]            = "33.6 fb^{-1}";
+  chanLumi[chan]            = "33.6 ";
   chanExp[chan]            = "ATLAS";
-  chanSqrtS[chan]          = "8,13 TeV";
+  chanSqrtS[chan]          = "8,13 ";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  =  -0.014 * scale_; 
   chanaCP[chan]  =  0.013 * scale_;  
@@ -856,7 +856,7 @@ if (catgcz)
 
 //  chanName[k_cdf_ww_lz]            = "#lambda_{Z}";
 //   chanMeasurement[k_cdf_ww_lz]     = "WW";
-//   chanLumi[k_cdf_ww_lz]            = "3.6 fb^{-1}";
+//   chanLumi[k_cdf_ww_lz]            = "3.6 ";
 //   chanExp[k_cdf_ww_lz]            = "CDF";
 //   chanaCC[k_cdf_ww_lz]  = 0.0   * scale_; 
 //   chanaCM[k_cdf_ww_lz]  = -0.14 * scale_; 
@@ -869,7 +869,7 @@ if (catgcz)
 
 //  chanName[k_cdf_wz_lz]            = "#lambda_{Z}";
 //   chanMeasurement[k_cdf_wz_lz]     = "WZ";
-//   chanLumi[k_cdf_wz_lz]            = "7.1 fb^{-1}";
+//   chanLumi[k_cdf_wz_lz]            = "7.1 ";
 //   chanExp[k_cdf_wz_lz]            = "CDF";
 //   chanaCC[k_cdf_wz_lz]  = 0.0   * scale_; 
 //   chanaCM[k_cdf_wz_lz]  = -0.09 * scale_; 
@@ -882,8 +882,8 @@ if (catgcz)
 
   chanName[k_atlas_wv_lz]            = "#lambda_{Z}";
   chanMeasurement[k_atlas_wv_lz]     = "WV";
-  chanLumi[k_atlas_wv_lz]            = "4.6 fb^{-1}";
-  chanSqrtS[k_atlas_wv_lz]          = "7 TeV";
+  chanLumi[k_atlas_wv_lz]            = "4.6 ";
+  chanSqrtS[k_atlas_wv_lz]          = "7 ";
   chanExp[k_atlas_wv_lz]            = "ATLAS";
   chanaCC[k_atlas_wv_lz]  = 0.0   * scale_; 
   chanaCM[k_atlas_wv_lz]  = -0.039 * scale_; 
@@ -897,8 +897,8 @@ if (catgcz)
 
   chanName[k_cms_wv_lz]            = "#lambda_{Z}";
   chanMeasurement[k_cms_wv_lz]     = "WV";
-  chanLumi[k_cms_wv_lz]            = "5.0 fb^{-1}";
-  chanSqrtS[k_cms_wv_lz]          = "7 TeV";
+  chanLumi[k_cms_wv_lz]            = "5.0 ";
+  chanSqrtS[k_cms_wv_lz]          = "7 ";
   chanExp[k_cms_wv_lz]            = "CMS";
   chanaCC[k_cms_wv_lz]  = 0.0   * scale_; 
   chanaCM[k_cms_wv_lz]  = -0.038 * scale_; 
@@ -913,9 +913,9 @@ if (catgcz)
 // D0 http://arxiv.org/abs/1208.5458 Phys.Lett. B718 (2012) 451-459
 
   chanName[k_d0_vv_lz]            = "#lambda_{Z}";
-  chanMeasurement[k_d0_vv_lz]     = "D0 Comb.";
-  chanLumi[k_d0_vv_lz]            = "8.6 fb^{-1}";
-  chanSqrtS[k_d0_vv_lz]          = "1.96 TeV";
+  chanMeasurement[k_d0_vv_lz]     = "D0 comb.";
+  chanLumi[k_d0_vv_lz]            = "8.6 ";
+  chanSqrtS[k_d0_vv_lz]          = "1.96 ";
   chanExp[k_d0_vv_lz]            = "D0";
   chanaCC[k_d0_vv_lz]  = 0.007   * scale_; 
   chanaCM[k_d0_vv_lz]  = -0.036 * scale_; 
@@ -926,9 +926,9 @@ if (catgcz)
 // LEP  hep-ex/0212036 and hep-ex/0307056,  http://arxiv.org/abs/1302.3415
 
   chanName[k_lep_ww_lz]            = "#lambda_{Z}";
-  chanMeasurement[k_lep_ww_lz]     = "LEP Comb.";
-  chanLumi[k_lep_ww_lz]            = "0.7 fb^{-1}";
-  chanSqrtS[k_lep_ww_lz]          = "0.20 TeV";
+  chanMeasurement[k_lep_ww_lz]     = "LEP comb.";
+  chanLumi[k_lep_ww_lz]            = "0.7 ";
+  chanSqrtS[k_lep_ww_lz]          = "0.20 ";
   chanExp[k_lep_ww_lz]            = "LEP";
   chanaCC[k_lep_ww_lz]  = -0.022   * scale_; 
   chanaCM[k_lep_ww_lz]  = -0.059 * scale_; 
@@ -940,9 +940,9 @@ if (catgcz)
   chan = k_atlas_ww8_dgz;
   chanName[chan]            = "#Deltag^{Z}_{1}";
   chanMeasurement[chan]     = "WW";
-  chanLumi[chan]            = "20.3 fb^{-1}";
+  chanLumi[chan]            = "20.3 ";
   chanExp[chan]            = "ATLAS";
-  chanSqrtS[chan]          = "8 TeV";
+  chanSqrtS[chan]          = "8 ";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.016 * scale_; 
   chanaCP[chan]  =  0.027 * scale_;  
@@ -953,8 +953,8 @@ if (catgcz)
 
   chanName[k_atlas_ww_dgz]            = "#Deltag^{Z}_{1}";
   chanMeasurement[k_atlas_ww_dgz]     = "WW";
-  chanLumi[k_atlas_ww_dgz]            = "4.6 fb^{-1}";
-  chanSqrtS[k_atlas_ww_dgz]          = "7 TeV";
+  chanLumi[k_atlas_ww_dgz]            = "4.6 ";
+  chanSqrtS[k_atlas_ww_dgz]          = "7 ";
   chanExp[k_atlas_ww_dgz]            = "ATLAS";
   chanaCC[k_atlas_ww_dgz]  = 0.0   * scale_; 
   chanaCM[k_atlas_ww_dgz]  = -0.039 * scale_; 
@@ -965,8 +965,8 @@ if (catgcz)
 
   chanName[k_cms_ww_dgz]            = "#Deltag^{Z}_{1}";
   chanMeasurement[k_cms_ww_dgz]     = "WW";
-  chanLumi[k_cms_ww_dgz]            = "4.9 fb^{-1}";
-  chanSqrtS[k_cms_ww_dgz]          = "7 TeV";
+  chanLumi[k_cms_ww_dgz]            = "4.9 ";
+  chanSqrtS[k_cms_ww_dgz]          = "7 ";
   chanExp[k_cms_ww_dgz]            = "CMS";
   chanaCC[k_cms_ww_dgz]  = 0.0   * scale_; 
   chanaCM[k_cms_ww_dgz]  = -0.095 * scale_; 
@@ -977,8 +977,8 @@ if (catgcz)
 
   chanName[k_cms_ww8_dgz]            = "#Deltag^{Z}_{1}";
   chanMeasurement[k_cms_ww8_dgz]     = "WW";
-  chanLumi[k_cms_ww8_dgz]            = "19.4 fb^{-1}";
-  chanSqrtS[k_cms_ww8_dgz]          = "8 TeV";
+  chanLumi[k_cms_ww8_dgz]            = "19.4 ";
+  chanSqrtS[k_cms_ww8_dgz]          = "8 ";
   chanExp[k_cms_ww8_dgz]            = "CMS";
   chanaCC[k_cms_ww8_dgz]  = -3.6 *  0.5 * 0.0911876 * 0.0911876   * scale_; 
   chanaCM[k_cms_ww8_dgz]  =  -11.4 * 0.5 * 0.0911876 * 0.0911876 * scale_;  
@@ -992,9 +992,9 @@ if (catgcz)
   chan = k_atlas_wz8_dgz;
   chanName[chan]            = "#Deltag^{Z}_{1}";
   chanMeasurement[chan]     = "WZ";
-  chanLumi[chan]            = "20.3 fb^{-1}";
+  chanLumi[chan]            = "20.3 ";
   chanExp[chan]            = "ATLAS";
-  chanSqrtS[chan]          = "8 TeV";
+  chanSqrtS[chan]          = "8 ";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  =  -0.019 * scale_; 
   chanaCP[chan]  =  0.029 * scale_;  
@@ -1004,9 +1004,9 @@ if (catgcz)
   chan = k_atlas_wz13_dgz;
   chanName[chan]            = "#Deltag^{Z}_{1}";
   chanMeasurement[chan]     = "WZ";
-  chanLumi[chan]            = "13.3 fb^{-1}";
+  chanLumi[chan]            = "13.3 ";
   chanExp[chan]            = "ATLAS";
-  chanSqrtS[chan]          = "13 TeV";
+  chanSqrtS[chan]          = "13 ";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  =  -0.016 * scale_; 
   chanaCP[chan]  =  0.036 * scale_;  
@@ -1016,9 +1016,9 @@ if (catgcz)
   chan = k_atlas_wz813_dgz;
   chanName[chan]            = "#Deltag^{Z}_{1}";
   chanMeasurement[chan]     = "WZ";
-  chanLumi[chan]            = "33.6 fb^{-1}";
+  chanLumi[chan]            = "33.6 ";
   chanExp[chan]            = "ATLAS";
-  chanSqrtS[chan]          = "8,13 TeV";
+  chanSqrtS[chan]          = "8,13 ";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  =  -0.015 * scale_; 
   chanaCP[chan]  =  0.030 * scale_;  
@@ -1030,8 +1030,8 @@ if (catgcz)
 
   chanName[k_atlas_wz_dgz]            = "#Deltag^{Z}_{1}";
   chanMeasurement[k_atlas_wz_dgz]     = "WZ";
-  chanLumi[k_atlas_wz_dgz]            = "4.6 fb^{-1}";
-  chanSqrtS[k_atlas_wz_dgz]          = "7 TeV";
+  chanLumi[k_atlas_wz_dgz]            = "4.6 ";
+  chanSqrtS[k_atlas_wz_dgz]          = "7 ";
   chanExp[k_atlas_wz_dgz]            = "ATLAS";
   chanaCC[k_atlas_wz_dgz]  = 0.0   * scale_; 
   chanaCM[k_atlas_wz_dgz]  =  -0.057 * scale_; 
@@ -1043,8 +1043,8 @@ if (catgcz)
 
   chanName[k_atlas_wv_dgz]            = "#Deltag^{Z}_{1}";
   chanMeasurement[k_atlas_wv_dgz]     = "WV";
-  chanLumi[k_atlas_wv_dgz]            = "4.6 fb^{-1}";
-  chanSqrtS[k_atlas_wv_dgz]          = "7 TeV";
+  chanLumi[k_atlas_wv_dgz]            = "4.6 ";
+  chanSqrtS[k_atlas_wv_dgz]          = "7 ";
   chanExp[k_atlas_wv_dgz]            = "ATLAS";
   chanaCC[k_atlas_wv_dgz]  = 0.0   * scale_; 
   chanaCM[k_atlas_wv_dgz]  = -0.055 * scale_; 
@@ -1059,7 +1059,7 @@ if (catgcz)
 
 //  chanName[k_cdf_ww_dgz]            = "#Deltag^{Z}_{1}";
 //   chanMeasurement[k_cdf_ww_dgz]     = "WW";
-//   chanLumi[k_cdf_ww_dgz]            = "3.6 fb^{-1}";
+//   chanLumi[k_cdf_ww_dgz]            = "3.6 ";
 //   chanExp[k_cdf_ww_dgz]            = "CDF";
 //   chanaCC[k_cdf_ww_dgz]  = 0.0   * scale_; 
 //   chanaCM[k_cdf_ww_dgz]  = -0.22 * scale_; 
@@ -1072,7 +1072,7 @@ if (catgcz)
 
 //   chanName[k_cdf_wz_dgz]            = "#Deltag^{Z}_{1}";
 //   chanMeasurement[k_cdf_wz_dgz]     = "WZ";
-//   chanLumi[k_cdf_wz_dgz]            = "7.1 fb^{-1}";
+//   chanLumi[k_cdf_wz_dgz]            = "7.1 ";
 //   chanExp[k_cdf_wz_dgz]            = "CDF";
 //   chanaCC[k_cdf_wz_dgz]  = 0.0   * scale_; 
 //   chanaCM[k_cdf_wz_dgz]  = -0.08 * scale_; 
@@ -1084,9 +1084,9 @@ if (catgcz)
 // D0 http://arxiv.org/abs/1208.5458 Phys.Lett. B718 (2012) 451-459
 
   chanName[k_d0_vv_dgz]            = "#Deltag^{Z}_{1}";
-  chanMeasurement[k_d0_vv_dgz]     = "D0 Comb.";
-  chanLumi[k_d0_vv_dgz]            = "8.6 fb^{-1}";
-  chanSqrtS[k_d0_vv_dgz]          = "1.96 TeV";
+  chanMeasurement[k_d0_vv_dgz]     = "D0 comb.";
+  chanLumi[k_d0_vv_dgz]            = "8.6 ";
+  chanSqrtS[k_d0_vv_dgz]          = "1.96 ";
   chanExp[k_d0_vv_dgz]            = "D0";
   chanaCC[k_d0_vv_dgz]  = 0.022   * scale_; 
   chanaCM[k_d0_vv_dgz]  = -0.034 * scale_; 
@@ -1096,9 +1096,9 @@ if (catgcz)
 // LEP  hep-ex/0212036 and hep-ex/0307056 http://arxiv.org/abs/1302.3415
 
   chanName[k_lep_ww_dgz]            = "#Deltag^{Z}_{1}";
-  chanMeasurement[k_lep_ww_dgz]     = "LEP Comb.";
-  chanLumi[k_lep_ww_dgz]            = "0.7 fb^{-1}";
-  chanSqrtS[k_lep_ww_dgz]          = "0.20 TeV";
+  chanMeasurement[k_lep_ww_dgz]     = "LEP comb.";
+  chanLumi[k_lep_ww_dgz]            = "0.7 ";
+  chanSqrtS[k_lep_ww_dgz]          = "0.20 ";
   chanExp[k_lep_ww_dgz]            = "LEP";
   chanaCC[k_lep_ww_dgz]  = -0.016   * scale_; 
   chanaCM[k_lep_ww_dgz]  = -0.054 * scale_; 
@@ -1110,8 +1110,8 @@ if (catgcz)
   chan = k_cms_wv13_dkz;
   chanName[chan]            = "#Delta#kappa_{Z}";
   chanMeasurement[chan]     = "WV";
-  chanLumi[chan]            = "2.3 fb^{-1}";
-  chanSqrtS[chan]           = "13 TeV";
+  chanLumi[chan]            = "2.3 ";
+  chanSqrtS[chan]           = "13 ";
   chanExp[chan]             = "CMS";
   chanaCC[chan]  = 0.0   * scale_;
   chanaCM[chan]  = -0.040 * scale_;
@@ -1121,8 +1121,8 @@ if (catgcz)
   chan = k_cms_wv13_lz;
   chanName[chan]            = "#lambda_{Z}";
   chanMeasurement[chan]     = "WV";
-  chanLumi[chan]            = "2.3 fb^{-1}";
-  chanSqrtS[chan]           = "13 TeV";
+  chanLumi[chan]            = "2.3 ";
+  chanSqrtS[chan]           = "13 ";
   chanExp[chan]             = "CMS";
   chanaCC[chan]  = 0.0   * scale_;
   chanaCM[chan]  = -0.039 * scale_;
@@ -1132,8 +1132,8 @@ if (catgcz)
   chan = k_cms_wv13_dgz;
   chanName[chan]            = "#Deltag^{Z}_{1}";
   chanMeasurement[chan]     = "WV";
-  chanLumi[chan]            = "2.3 fb^{-1}";
-  chanSqrtS[chan]          = "13 TeV";
+  chanLumi[chan]            = "2.3 ";
+  chanSqrtS[chan]          = "13 ";
   chanExp[chan]            = "CMS";
   chanaCC[chan]  = 0.0   * scale_;
   chanaCM[chan]  = -0.067 * scale_;
@@ -1150,9 +1150,9 @@ if (catgcz)
   chan = k_cms_wz8_dkz;
   chanName[chan]            = "#Delta#kappa_{Z}";
   chanMeasurement[chan]     = "WZ";
-  chanLumi[chan]            = "19.6 fb^{-1}";
+  chanLumi[chan]            = "19.6 ";
   chanExp[chan]            = "CMS";
-  chanSqrtS[chan]          = "8 TeV";
+  chanSqrtS[chan]          = "8 ";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.21 * scale_; 
   chanaCP[chan]  =  0.25 * scale_;  
@@ -1161,8 +1161,8 @@ if (catgcz)
   chan = k_cms_wz8_dgz;
   chanName[chan]            = "#Deltag^{Z}_{1}";
   chanMeasurement[chan]     = "WZ";
-  chanLumi[chan]            = "19.6 fb^{-1}";
-  chanSqrtS[chan]          = "8 TeV";
+  chanLumi[chan]            = "19.6 ";
+  chanSqrtS[chan]          = "8 ";
   chanExp[chan]            = "CMS";
   chanaCC[chan]  = 0.0   * scale_;
   chanaCM[chan]  = -0.018 * scale_;
@@ -1172,8 +1172,8 @@ if (catgcz)
   chan = k_cms_wz8_lz;
   chanName[chan]            = "#lambda_{Z}";
   chanMeasurement[chan]     = "WZ";
-  chanLumi[chan]            = "19.6 fb^{-1}";
-  chanSqrtS[chan]          = "8 TeV";
+  chanLumi[chan]            = "19.6 ";
+  chanSqrtS[chan]          = "8 ";
   chanExp[chan]            = "CMS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.018 * scale_; 
@@ -1188,9 +1188,9 @@ if (catgcz)
   chan = k_cms_wz13_dkz;
   chanName[chan]            = "#Delta#kappa_{Z}";
   chanMeasurement[chan]     = "WZ";
-  chanLumi[chan]            = "35.9 fb^{-1}";
+  chanLumi[chan]            = "35.9 ";
   chanExp[chan]            = "CMS";
-  chanSqrtS[chan]          = "13 TeV";
+  chanSqrtS[chan]          = "13 ";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.167 * scale_; 
   chanaCP[chan]  =  0.131 * scale_;  
@@ -1199,8 +1199,8 @@ if (catgcz)
   chan = k_cms_wz13_dgz;
   chanName[chan]            = "#Deltag^{Z}_{1}";
   chanMeasurement[chan]     = "WZ";
-  chanLumi[chan]            = "35.9 fb^{-1}";
-  chanSqrtS[chan]          = "13 TeV";
+  chanLumi[chan]            = "35.9 ";
+  chanSqrtS[chan]          = "13 ";
   chanExp[chan]            = "CMS";
   chanaCC[chan]  = 0.0   * scale_;
   chanaCM[chan]  = -0.0137 * scale_;
@@ -1210,8 +1210,8 @@ if (catgcz)
   chan = k_cms_wz13_lz;
   chanName[chan]            = "#lambda_{Z}";
   chanMeasurement[chan]     = "WZ";
-  chanLumi[chan]            = "35.9 fb^{-1}";
-  chanSqrtS[chan]          = "13 TeV";
+  chanLumi[chan]            = "35.9 ";
+  chanSqrtS[chan]          = "13 ";
   chanExp[chan]            = "CMS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.00698 * scale_; 
@@ -1225,9 +1225,9 @@ if (catgcz)
   chan = k_cms_wv8_dkz;
   chanName[chan]            = "#Delta#kappa_{Z}";
   chanMeasurement[chan]     = "WV";
-  chanLumi[chan]            = "19 fb^{-1}";
+  chanLumi[chan]            = "19 ";
   chanExp[chan]            = "CMS";
-  chanSqrtS[chan]          = "8 TeV";
+  chanSqrtS[chan]          = "8 ";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = (-2.0 - 17.0*0.30082992949) * 0.5 * 0.080385 * 0.080385 * scale_; 
   chanaCP[chan]  = (5.7 + 14.0*0.30082992949) * 0.5 * 0.080385 * 0.080385 * scale_;
@@ -1245,8 +1245,8 @@ if (catgcz)
   chan = k_cms_wv8_dgz;
   chanName[chan]            = "#Deltag^{Z}_{1}";
   chanMeasurement[chan]     = "WV";
-  chanLumi[chan]            = "19 fb^{-1}";
-  chanSqrtS[chan]          = "8 TeV";
+  chanLumi[chan]            = "19 ";
+  chanSqrtS[chan]          = "8 ";
   chanExp[chan]            = "CMS";
   chanaCC[chan]  = 0.0   * scale_;
   chanaCM[chan]  = -0.0087 * scale_;
@@ -1256,8 +1256,8 @@ if (catgcz)
   chan = k_cms_wv8_lz;
   chanName[chan]            = "#lambda_{Z}";
   chanMeasurement[chan]     = "WV";
-  chanLumi[chan]            = "19 fb^{-1}";
-  chanSqrtS[chan]          = "8 TeV";
+  chanLumi[chan]            = "19 ";
+  chanSqrtS[chan]          = "8 ";
   chanExp[chan]            = "CMS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.011 * scale_; 
@@ -1270,8 +1270,8 @@ if (catgcz)
   chan = k_atlas_wvjj8_lz;
   chanName[chan]            = "#lambda_{Z}";
   chanMeasurement[chan]     = "WV (l#nujj)";
-  chanLumi[chan]            = "20.2 fb^{-1}";
-  chanSqrtS[chan]          = "8 TeV";
+  chanLumi[chan]            = "20.2 ";
+  chanSqrtS[chan]          = "8 ";
   chanExp[chan]            = "ATLAS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.022 * scale_; 
@@ -1283,8 +1283,8 @@ if (catgcz)
   chan = k_atlas_wvJ8_lz;
   chanName[chan]            = "#lambda_{Z}";
   chanMeasurement[chan]     = "WV (l#nuJ)";
-  chanLumi[chan]            = "20.2 fb^{-1}";
-  chanSqrtS[chan]          = "8 TeV";
+  chanLumi[chan]            = "20.2 ";
+  chanSqrtS[chan]          = "8 ";
   chanExp[chan]            = "ATLAS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.013 * scale_; 
@@ -1296,8 +1296,8 @@ if (catgcz)
   chan = k_atlas_wvjj8_dgz;
   chanName[chan]            = "#Deltag^{Z}_{1}";
   chanMeasurement[chan]     = "WV (l#nujj)";
-  chanLumi[chan]            = "20.2 fb^{-1}";
-  chanSqrtS[chan]          = "8 TeV";
+  chanLumi[chan]            = "20.2 ";
+  chanSqrtS[chan]          = "8 ";
   chanExp[chan]            = "ATLAS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.027 * scale_; 
@@ -1307,8 +1307,8 @@ if (catgcz)
   chan = k_atlas_wvJ8_dgz;
   chanName[chan]            = "#Deltag^{Z}_{1}";
   chanMeasurement[chan]     = "WV (l#nuJ)";
-  chanLumi[chan]            = "20.2 fb^{-1}";
-  chanSqrtS[chan]          = "8 TeV";
+  chanLumi[chan]            = "20.2 ";
+  chanSqrtS[chan]          = "8 ";
   chanExp[chan]            = "ATLAS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.021 * scale_; 
@@ -1324,8 +1324,8 @@ if (catgcz)
    chan = k_cms_vbfz13_lz;
   chanName[chan]            = "#lambda_{Z}";
   chanMeasurement[chan]     = "VBF Z";
-  chanLumi[chan]            = "35.9 fb^{-1}";
-  chanSqrtS[chan]           = "13 TeV";
+  chanLumi[chan]            = "35.9 ";
+  chanSqrtS[chan]           = "13 ";
   chanExp[chan]             = "CMS";
   chanaCC[chan]  = 0.0   * scale_;
   chanaCM[chan]  = -0.010 * scale_;
@@ -1336,8 +1336,8 @@ if (catgcz)
     chan = k_cms_vbfz13_dgz;
   chanName[chan]            = "#Deltag^{Z}_{1}";
   chanMeasurement[chan]     = "VBF Z";
-  chanLumi[chan]            = "35.9 fb^{-1}";
-  chanSqrtS[chan]          = "13 TeV";
+  chanLumi[chan]            = "35.9 ";
+  chanSqrtS[chan]          = "13 ";
   chanExp[chan]            = "CMS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.035 * scale_; 
@@ -1359,8 +1359,8 @@ if (natgcg)
 
     chanName[k_atlas_zg_h3g]            = "h^{#gamma}_{3}";
     chanMeasurement[k_atlas_zg_h3g]     = "Z#gamma(ll#gamma,#nu#nu#gamma)";
-    chanLumi[k_atlas_zg_h3g]            = "4.6 fb^{-1}";
-    chanSqrtS[k_atlas_zg_h3g]          = "7 TeV";
+    chanLumi[k_atlas_zg_h3g]            = "4.6 ";
+    chanSqrtS[k_atlas_zg_h3g]          = "7 ";
     chanExp[k_atlas_zg_h3g]            = "ATLAS";
     chanaCC[k_atlas_zg_h3g]  = 0.0   * scale_; 
     chanaCM[k_atlas_zg_h3g]  = -0.015 * scale_; 
@@ -1372,8 +1372,8 @@ if (natgcg)
     chan = k_atlas_zg8_h3g;
     chanName[chan]            = "h^{#gamma}_{3}";
     chanMeasurement[chan]     = "Z#gamma(ll#gamma,#nu#nu#gamma)";
-    chanLumi[chan]            = "20.3 fb^{-1}";
-    chanSqrtS[chan]          = "8 TeV";
+    chanLumi[chan]            = "20.3 ";
+    chanSqrtS[chan]          = "8 ";
     chanExp[chan]            = "ATLAS";
     chanaCC[chan]  = 0.0   * scale_; 
     chanaCM[chan]  = -0.00095 * scale_; 
@@ -1386,7 +1386,7 @@ if (natgcg)
 
 //   chanName[k_atlas_zg_h3g]            = "h^{#gamma}_{3}";
 //   chanMeasurement[k_atlas_zg_h3g]     = "Z#gamma";
-//   chanLumi[k_atlas_zg_h3g]            = "1.0 fb^{-1}";
+//   chanLumi[k_atlas_zg_h3g]            = "1.0 ";
 //   chanExp[k_atlas_zg_h3g]            = "ATLAS";
 //   chanaCC[k_atlas_zg_h3g]  = 0.0   * scale_; 
 //   chanaCM[k_atlas_zg_h3g]  = -0.028 * scale_; 
@@ -1399,8 +1399,8 @@ if (natgcg)
 
   chanName[k_cms_zg_h3g]            = "h^{#gamma}_{3}";
   chanMeasurement[k_cms_zg_h3g]     = "Z#gamma(ll#gamma,#nu#nu#gamma)";
-  chanLumi[k_cms_zg_h3g]            = "5.0 fb^{-1}";
-  chanSqrtS[k_cms_zg_h3g]          = "7 TeV";
+  chanLumi[k_cms_zg_h3g]            = "5.0 ";
+  chanSqrtS[k_cms_zg_h3g]          = "7 ";
   chanExp[k_cms_zg_h3g]            = "CMS";
   chanaCC[k_cms_zg_h3g]  = 0.0   * scale_; 
   //  chanaCM[k_cms_zg_h3g]  = -0.10 * scale_; 
@@ -1414,8 +1414,8 @@ if (natgcg)
 
   chanName[k_cms_zg8_h3g]            = "h^{#gamma}_{3}";
   chanMeasurement[k_cms_zg8_h3g]     = "Z#gamma(ll#gamma)";
-  chanLumi[k_cms_zg8_h3g]            = "19.5 fb^{-1}";
-  chanSqrtS[k_cms_zg8_h3g]          = "8 TeV";
+  chanLumi[k_cms_zg8_h3g]            = "19.5 ";
+  chanSqrtS[k_cms_zg8_h3g]          = "8 ";
   chanExp[k_cms_zg8_h3g]            = "CMS";
   chanaCC[k_cms_zg8_h3g]  = 0.0   * scale_; 
   //  chanaCM[k_cms_zg_h3g]  = -0.10 * scale_; 
@@ -1429,8 +1429,8 @@ if (natgcg)
 
   chanName[k_cms_zg8_h3g2]            = "h^{#gamma}_{3}";
   chanMeasurement[k_cms_zg8_h3g2]     = "Z#gamma(#nu#nu#gamma)";
-  chanLumi[k_cms_zg8_h3g2]            = "19.6 fb^{-1}";
-  chanSqrtS[k_cms_zg8_h3g2]          = "8 TeV";
+  chanLumi[k_cms_zg8_h3g2]            = "19.6 ";
+  chanSqrtS[k_cms_zg8_h3g2]          = "8 ";
   chanExp[k_cms_zg8_h3g2]            = "CMS";
   chanaCC[k_cms_zg8_h3g2]  = 0.0   * scale_; 
   chanaCM[k_cms_zg8_h3g2]  = -0.0011 * scale_; 
@@ -1445,8 +1445,8 @@ if (natgcg)
   
   chanName[k_cdf_zg_h3g]            = "h^{#gamma}_{3}";
   chanMeasurement[k_cdf_zg_h3g]     = "Z#gamma(ll#gamma,#nu#nu#gamma)";
-  chanLumi[k_cdf_zg_h3g]            = "5.1 fb^{-1}";
-  chanSqrtS[k_cdf_zg_h3g]          = "1.96 TeV";
+  chanLumi[k_cdf_zg_h3g]            = "5.1 ";
+  chanSqrtS[k_cdf_zg_h3g]          = "1.96 ";
   chanExp[k_cdf_zg_h3g]            = "CDF";
   chanaCC[k_cdf_zg_h3g]  = 0.0   * scale_; 
   chanaCM[k_cdf_zg_h3g]  = -0.022 * scale_; 
@@ -1459,7 +1459,7 @@ if (natgcg)
 
 //   chanName[k_d0_zg_h3g]            = "h^{#gamma}_{3}";
 //   chanMeasurement[k_d0_zg_h3g]     = "Z#gamma";
-//   chanLumi[k_d0_zg_h3g]            = "7.2 fb^{-1}";
+//   chanLumi[k_d0_zg_h3g]            = "7.2 ";
 //   chanExp[k_d0_zg_h3g]            = "D0";
 //   chanaCC[k_d0_zg_h3g]  = 0.0   * scale_; 
 //   chanaCM[k_d0_zg_h3g]  = -0.029 * scale_; 
@@ -1472,8 +1472,8 @@ if (natgcg)
   // http://arxiv.org/abs/1302.1283 submitted to PRD
   chanName[k_atlas_zg_h3z]            = "h^{Z}_{3}";
   chanMeasurement[k_atlas_zg_h3z]     = "Z#gamma(ll#gamma,#nu#nu#gamma)";
-  chanLumi[k_atlas_zg_h3z]            = "4.6 fb^{-1}";
-  chanSqrtS[k_atlas_zg_h3z]          = "7 TeV";
+  chanLumi[k_atlas_zg_h3z]            = "4.6 ";
+  chanSqrtS[k_atlas_zg_h3z]          = "7 ";
   chanExp[k_atlas_zg_h3z]            = "ATLAS";
   chanaCC[k_atlas_zg_h3z]  = 0.0   * scale_; 
   chanaCM[k_atlas_zg_h3z]  = -0.013 * scale_; 
@@ -1485,8 +1485,8 @@ if (natgcg)
     chan = k_atlas_zg8_h3z;
     chanName[chan]            = "h^{Z}_{3}";
     chanMeasurement[chan]     = "Z#gamma(ll#gamma,#nu#nu#gamma)";
-    chanLumi[chan]            = "20.3 fb^{-1}";
-    chanSqrtS[chan]          = "8 TeV";
+    chanLumi[chan]            = "20.3 ";
+    chanSqrtS[chan]          = "8 ";
     chanExp[chan]            = "ATLAS";
     chanaCC[chan]  = 0.0   * scale_; 
     chanaCM[chan]  = -0.00078 * scale_; 
@@ -1499,7 +1499,7 @@ if (natgcg)
 
 //   chanName[k_atlas_zg_h3z]            = "h^{Z}_{3}";
 //   chanMeasurement[k_atlas_zg_h3z]     = "Z#gamma";
-//   chanLumi[k_atlas_zg_h3z]            = "1.0 fb^{-1}";
+//   chanLumi[k_atlas_zg_h3z]            = "1.0 ";
 //   chanExp[k_atlas_zg_h3z]            = "ATLAS";
 //   chanaCC[k_atlas_zg_h3z]  = 0.0   * scale_; 
 //   chanaCM[k_atlas_zg_h3z]  = -0.022 * scale_; 
@@ -1513,8 +1513,8 @@ if (natgcg)
 
   chanName[k_cms_zg_h3z]            = "h^{Z}_{3}";
   chanMeasurement[k_cms_zg_h3z]     = "Z#gamma(ll#gamma,#nu#nu#gamma)";
-  chanLumi[k_cms_zg_h3z]            = "5.0 fb^{-1}";
-  chanSqrtS[k_cms_zg_h3z]          = "7 TeV";
+  chanLumi[k_cms_zg_h3z]            = "5.0 ";
+  chanSqrtS[k_cms_zg_h3z]          = "7 ";
   chanExp[k_cms_zg_h3z]            = "CMS";
   chanaCC[k_cms_zg_h3z]  = 0.0   * scale_; 
   //chanaCM[k_cms_zg_h3z]  = -0.0086 * scale_; 
@@ -1529,8 +1529,8 @@ if (natgcg)
 
   chanName[k_cms_zg8_h3z]            = "h^{Z}_{3}";
   chanMeasurement[k_cms_zg8_h3z]     = "Z#gamma(ll#gamma)";
-  chanLumi[k_cms_zg8_h3z]            = "19.5 fb^{-1}";
-  chanSqrtS[k_cms_zg8_h3z]          = "8 TeV";
+  chanLumi[k_cms_zg8_h3z]            = "19.5 ";
+  chanSqrtS[k_cms_zg8_h3z]          = "8 ";
   chanExp[k_cms_zg8_h3z]            = "CMS";
   chanaCC[k_cms_zg8_h3z]  = 0.0   * scale_; 
   //chanaCM[k_cms_zg_h3z]  = -0.0086 * scale_; 
@@ -1544,8 +1544,8 @@ if (natgcg)
 
   chanName[k_cms_zg8_h3z2]            = "h^{Z}_{3}";
   chanMeasurement[k_cms_zg8_h3z2]     = "Z#gamma(#nu#nu#gamma)";
-  chanLumi[k_cms_zg8_h3z2]            = "19.6 fb^{-1}";
-  chanSqrtS[k_cms_zg8_h3z2]          = "8 TeV";
+  chanLumi[k_cms_zg8_h3z2]            = "19.6 ";
+  chanSqrtS[k_cms_zg8_h3z2]          = "8 ";
   chanExp[k_cms_zg8_h3z2]            = "CMS";
   chanaCC[k_cms_zg8_h3z2]  = 0.0   * scale_; 
   chanaCM[k_cms_zg8_h3z2]  = -0.0015 * scale_; 
@@ -1557,8 +1557,8 @@ if (natgcg)
   
   chanName[k_cdf_zg_h3z]            = "h^{Z}_{3}";
   chanMeasurement[k_cdf_zg_h3z]     = "Z#gamma(ll#gamma,#nu#nu#gamma)";
-  chanLumi[k_cdf_zg_h3z]            = "5.1 fb^{-1}";
-  chanSqrtS[k_cdf_zg_h3z]          = "1.96 TeV";
+  chanLumi[k_cdf_zg_h3z]            = "5.1 ";
+  chanSqrtS[k_cdf_zg_h3z]          = "1.96 ";
   chanExp[k_cdf_zg_h3z]            = "CDF";
   chanaCC[k_cdf_zg_h3z]  = 0.0   * scale_; 
   chanaCM[k_cdf_zg_h3z]  = -0.020 * scale_; 
@@ -1570,7 +1570,7 @@ if (natgcg)
 
 //   chanName[k_d0_zg_h3z]            = "h^{Z}_{3}";
 //   chanMeasurement[k_d0_zg_h3z]     = "Z#gamma";
-//   chanLumi[k_d0_zg_h3z]            = "7.2 fb^{-1}";
+//   chanLumi[k_d0_zg_h3z]            = "7.2 ";
 //   chanExp[k_d0_zg_h3z]            = "D0";
 //   chanaCC[k_d0_zg_h3z]  = 0.0   * scale_; 
 //   chanaCM[k_d0_zg_h3z]  = -0.026 * scale_; 
@@ -1591,8 +1591,8 @@ if (natgcg)
 
   chanName[k_atlas_zg_h4g]            = "h^{#gamma}_{4}";
   chanMeasurement[k_atlas_zg_h4g]     = "Z#gamma(ll#gamma,#nu#nu#gamma)";
-  chanLumi[k_atlas_zg_h4g]            = "4.6 fb^{-1}";
-  chanSqrtS[k_atlas_zg_h4g]          = "7 TeV";
+  chanLumi[k_atlas_zg_h4g]            = "4.6 ";
+  chanSqrtS[k_atlas_zg_h4g]          = "7 ";
   chanExp[k_atlas_zg_h4g]            = "ATLAS";
   chanaCC[k_atlas_zg_h4g]  = 0.0   * scale_; 
   chanaCM[k_atlas_zg_h4g]  = -0.000094 * scale_; 
@@ -1604,8 +1604,8 @@ if (natgcg)
     chan = k_atlas_zg8_h4g;
     chanName[chan]            = "h^{#gamma}_{4}";
     chanMeasurement[chan]     = "Z#gamma(ll#gamma,#nu#nu#gamma)";
-    chanLumi[chan]            = "20.3 fb^{-1}";
-    chanSqrtS[chan]          = "8 TeV";
+    chanLumi[chan]            = "20.3 ";
+    chanSqrtS[chan]          = "8 ";
     chanExp[chan]            = "ATLAS";
     chanaCC[chan]  = 0.0   * scale_; 
     chanaCM[chan]  = -0.0000032 * scale_; 
@@ -1618,7 +1618,7 @@ if (natgcg)
 
 //   chanName[k_atlas_zg_h4g]            = "h^{#gamma}_{4}";
 //   chanMeasurement[k_atlas_zg_h4g]     = "Z#gamma";
-//   chanLumi[k_atlas_zg_h4g]            = "1.0 fb^{-1}";
+//   chanLumi[k_atlas_zg_h4g]            = "1.0 ";
 //   chanExp[k_atlas_zg_h4g]            = "ATLAS";
 //   chanaCC[k_atlas_zg_h4g]  = 0.0   * scale_; 
 //   chanaCM[k_atlas_zg_h4g]  = -0.00021 * scale_; 
@@ -1633,8 +1633,8 @@ if (natgcg)
 
   chanName[k_cms_zg_h4g]            = "h^{#gamma}_{4}";
   chanMeasurement[k_cms_zg_h4g]     = "Z#gamma(ll#gamma,#nu#nu#gamma)";
-  chanLumi[k_cms_zg_h4g]            = "5.0 fb^{-1}";
-  chanSqrtS[k_cms_zg_h4g]          = "7 TeV";
+  chanLumi[k_cms_zg_h4g]            = "5.0 ";
+  chanSqrtS[k_cms_zg_h4g]          = "7 ";
   chanExp[k_cms_zg_h4g]            = "CMS";
   chanaCC[k_cms_zg_h4g]  = 0.0   * scale_; 
   //chanaCM[k_cms_zg_h4g]  = -0.000088 * scale_; 
@@ -1648,8 +1648,8 @@ if (natgcg)
 
   chanName[k_cms_zg8_h4g]            = "h^{#gamma}_{4}";
   chanMeasurement[k_cms_zg8_h4g]     = "Z#gamma(ll#gamma)";
-  chanLumi[k_cms_zg8_h4g]            = "19.5 fb^{-1}";
-  chanSqrtS[k_cms_zg8_h4g]          = "8 TeV";
+  chanLumi[k_cms_zg8_h4g]            = "19.5 ";
+  chanSqrtS[k_cms_zg8_h4g]          = "8 ";
   chanExp[k_cms_zg8_h4g]            = "CMS";
   chanaCC[k_cms_zg8_h4g]  = 0.0   * scale_; 
   //chanaCM[k_cms_zg_h4g]  = -0.000088 * scale_; 
@@ -1662,8 +1662,8 @@ if (natgcg)
 
   chanName[k_cms_zg8_h4g2]            = "h^{#gamma}_{4}";
   chanMeasurement[k_cms_zg8_h4g2]     = "Z#gamma(#nu#nu#gamma)";
-  chanLumi[k_cms_zg8_h4g2]            = "19.6 fb^{-1}";
-  chanSqrtS[k_cms_zg8_h4g2]          = "8 TeV";
+  chanLumi[k_cms_zg8_h4g2]            = "19.6 ";
+  chanSqrtS[k_cms_zg8_h4g2]          = "8 ";
   chanExp[k_cms_zg8_h4g2]            = "CMS";
   chanaCC[k_cms_zg8_h4g2]  = 0.0   * scale_; 
   chanaCM[k_cms_zg8_h4g2]  = -0.0000038 * scale_; 
@@ -1677,7 +1677,7 @@ if (natgcg)
 
 //   chanName[k_cdf_zg_h4g]            = "h^{#gamma}_{4}";
 //   chanMeasurement[k_cdf_zg_h4g]     = "Z#gamma";
-//   chanLumi[k_cdf_zg_h4g]            = "5.1 fb^{-1}";
+//   chanLumi[k_cdf_zg_h4g]            = "5.1 ";
 //   chanExp[k_cdf_zg_h4g]            = "CDF";
 //   chanaCC[k_cdf_zg_h4g]  = 0.0   * scale_; 
 //   chanaCM[k_cdf_zg_h4g]  = -0.0008 * scale_; 
@@ -1696,8 +1696,8 @@ if (natgcg)
 
   chanName[k_atlas_zg_h4z]            = "h^{Z}_{4}";
   chanMeasurement[k_atlas_zg_h4z]     = "Z#gamma(ll#gamma,#nu#nu#gamma)";
-  chanLumi[k_atlas_zg_h4z]            = "4.6 fb^{-1}";
-  chanSqrtS[k_atlas_zg_h4z]          = "7 TeV";
+  chanLumi[k_atlas_zg_h4z]            = "4.6 ";
+  chanSqrtS[k_atlas_zg_h4z]          = "7 ";
   chanExp[k_atlas_zg_h4z]            = "ATLAS";
   chanaCC[k_atlas_zg_h4z]  = 0.0   * scale_; 
   chanaCM[k_atlas_zg_h4z]  = -0.000087 * scale_; 
@@ -1709,8 +1709,8 @@ if (natgcg)
     chan = k_atlas_zg8_h4z;
     chanName[chan]            = "h^{Z}_{4}";
     chanMeasurement[chan]     = "Z#gamma(ll#gamma,#nu#nu#gamma)";
-    chanLumi[chan]            = "20.3 fb^{-1}";
-    chanSqrtS[chan]          = "8 TeV";
+    chanLumi[chan]            = "20.3 ";
+    chanSqrtS[chan]          = "8 ";
     chanExp[chan]            = "ATLAS";
     chanaCC[chan]  = 0.0   * scale_; 
     chanaCM[chan]  = -0.0000030 * scale_; 
@@ -1723,7 +1723,7 @@ if (natgcg)
 
 //   chanName[k_atlas_zg_h4z]            = "h^{Z}_{4}";
 //   chanMeasurement[k_atlas_zg_h4z]     = "Z#gamma";
-//   chanLumi[k_atlas_zg_h4z]            = "1.0 fb^{-1}";
+//   chanLumi[k_atlas_zg_h4z]            = "1.0 ";
 //   chanExp[k_atlas_zg_h4z]            = "ATLAS";
 //   chanaCC[k_atlas_zg_h4z]  = 0.0   * scale_; 
 //   chanaCM[k_atlas_zg_h4z]  = -0.00022 * scale_; 
@@ -1736,8 +1736,8 @@ if (natgcg)
 
   chanName[k_cms_zg_h4z]            = "h^{Z}_{4}";
   chanMeasurement[k_cms_zg_h4z]     = "Z#gamma(ll#gamma,#nu#nu#gamma)";
-  chanLumi[k_cms_zg_h4z]            = "5.0 fb^{-1}";
-  chanSqrtS[k_cms_zg_h4z]          = "7 TeV";
+  chanLumi[k_cms_zg_h4z]            = "5.0 ";
+  chanSqrtS[k_cms_zg_h4z]          = "7 ";
   chanExp[k_cms_zg_h4z]            = "CMS";
   chanaCC[k_cms_zg_h4z]  = 0.0   * scale_; 
   //  chanaCM[k_cms_zg_h4z]  = -0.000080 * scale_; 
@@ -1751,8 +1751,8 @@ if (natgcg)
 
   chanName[k_cms_zg8_h4z]            = "h^{Z}_{4}";
   chanMeasurement[k_cms_zg8_h4z]     = "Z#gamma(ll#gamma)";
-  chanLumi[k_cms_zg8_h4z]            = "19.5 fb^{-1}";
-  chanSqrtS[k_cms_zg8_h4z]          = "8 TeV";
+  chanLumi[k_cms_zg8_h4z]            = "19.5 ";
+  chanSqrtS[k_cms_zg8_h4z]          = "8 ";
   chanExp[k_cms_zg8_h4z]            = "CMS";
   chanaCC[k_cms_zg8_h4z]  = 0.0   * scale_; 
   //  chanaCM[k_cms_zg_h4z]  = -0.000080 * scale_; 
@@ -1766,8 +1766,8 @@ if (natgcg)
 
   chanName[k_cms_zg8_h4z2]            = "h^{Z}_{4}";
   chanMeasurement[k_cms_zg8_h4z2]     = "Z#gamma(#nu#nu#gamma)";
-  chanLumi[k_cms_zg8_h4z2]            = "19.6 fb^{-1}";
-  chanSqrtS[k_cms_zg8_h4z2]          = "8 TeV";
+  chanLumi[k_cms_zg8_h4z2]            = "19.6 ";
+  chanSqrtS[k_cms_zg8_h4z2]          = "8 ";
   chanExp[k_cms_zg8_h4z2]            = "CMS";
   chanaCC[k_cms_zg8_h4z2]  = 0.0   * scale_; 
   chanaCM[k_cms_zg8_h4z2]  = -0.0000039 * scale_; 
@@ -1784,8 +1784,8 @@ if (natgcg)
     chan = k_atlas_zg13_h3g;
     chanName[chan]            = "h^{#gamma}_{3}";
     chanMeasurement[chan]     = "Z#gamma(#nu#nu#gamma)";
-    chanLumi[chan]            = "36.1 fb^{-1}";
-    chanSqrtS[chan]          = "13 TeV";
+    chanLumi[chan]            = "36.1 ";
+    chanSqrtS[chan]          = "13 ";
     chanExp[chan]            = "ATLAS";
     chanaCC[chan]  = 0.0   * scale_; 
     chanaCM[chan]  = -0.00037 * scale_; 
@@ -1795,8 +1795,8 @@ if (natgcg)
     chan = k_atlas_zg13_h3z;
     chanName[chan]            = "h^{Z}_{3}";
     chanMeasurement[chan]     = "Z#gamma(#nu#nu#gamma)";
-    chanLumi[chan]            = "36.1 fb^{-1}";
-    chanSqrtS[chan]          = "13 TeV";
+    chanLumi[chan]            = "36.1 ";
+    chanSqrtS[chan]          = "13 ";
     chanExp[chan]            = "ATLAS";
     chanaCC[chan]  = 0.0   * scale_; 
     chanaCM[chan]  = -0.00032 * scale_; 
@@ -1808,8 +1808,8 @@ if (natgcg)
     chan = k_atlas_zg13_h4g;
     chanName[chan]            = "h^{#gamma}_{4}";
     chanMeasurement[chan]     = "Z#gamma(#nu#nu#gamma)";
-    chanLumi[chan]            = "36.1 fb^{-1}";
-    chanSqrtS[chan]          = "13 TeV";
+    chanLumi[chan]            = "36.1 ";
+    chanSqrtS[chan]          = "13 ";
     chanExp[chan]            = "ATLAS";
     chanaCC[chan]  = 0.0   * scale_; 
     chanaCM[chan]  = -0.00000044 * scale_; 
@@ -1819,8 +1819,8 @@ if (natgcg)
     chan = k_atlas_zg13_h4z;
     chanName[chan]            = "h^{Z}_{4}";
     chanMeasurement[chan]     = "Z#gamma(#nu#nu#gamma)";
-    chanLumi[chan]            = "36.1 fb^{-1}";
-    chanSqrtS[chan]          = "13 TeV";
+    chanLumi[chan]            = "36.1 ";
+    chanSqrtS[chan]          = "13 ";
     chanExp[chan]            = "ATLAS";
     chanaCC[chan]  = 0.0   * scale_; 
     chanaCM[chan]  = -0.00000045 * scale_; 
@@ -1834,7 +1834,7 @@ if (natgcg)
 
 //   chanName[k_cdf_zg_h4z]            = "h^{Z}_{4}";
 //   chanMeasurement[k_cdf_zg_h4z]     = "Z#gamma";
-//   chanLumi[k_cdf_zg_h4z]            = "5.` fb^{-1}";
+//   chanLumi[k_cdf_zg_h4z]            = "5.` ";
 //   chanExp[k_cdf_zg_h4z]            = "CDF";
 //   chanaCC[k_cdf_zg_h4z]  = 0.0   * scale_; 
 //   chanaCM[k_cdf_zg_h4z]  = -0.09 * scale_; 
@@ -1860,8 +1860,8 @@ if (natgcz)
 
   chanName[k_atlas_zz_f4g]            = "f^{#gamma}_{4}";
   chanMeasurement[k_atlas_zz_f4g]     = "ZZ (4l,2l2#nu)";
-  chanLumi[k_atlas_zz_f4g]            = "4.6 fb^{-1}";
-  chanSqrtS[k_atlas_zz_f4g]          = "7 TeV";
+  chanLumi[k_atlas_zz_f4g]            = "4.6 ";
+  chanSqrtS[k_atlas_zz_f4g]          = "7 ";
   chanExp[k_atlas_zz_f4g]            = "ATLAS";
   chanaCC[k_atlas_zz_f4g]  = 0.0   * scale_; 
   chanaCM[k_atlas_zz_f4g]  = -0.15 * scale_; 
@@ -1873,7 +1873,7 @@ if (natgcz)
 
 //   chanName[k_cms_zz_f4g]            = "f^{#gamma}_{4}";
 //   chanMeasurement[k_cms_zz_f4g]     = "ZZ";
-//   chanLumi[k_cms_zz_f4g]            = "5.0 fb^{-1}";
+//   chanLumi[k_cms_zz_f4g]            = "5.0 ";
 //   chanExp[k_cms_zz_f4g]            = "CMS";
 //   chanaCC[k_cms_zz_f4g]  = 0.0   * scale_; 
 //   chanaCM[k_cms_zz_f4g]  = -0.13 * scale_; 
@@ -1885,8 +1885,8 @@ if (natgcz)
 
   chanName[k_cms_zz_f4g]            = "f^{#gamma}_{4}";
   chanMeasurement[k_cms_zz_f4g]     = "ZZ (4l)";
-  chanLumi[k_cms_zz_f4g]            = "19.6 fb^{-1}";
-  chanSqrtS[k_cms_zz_f4g]          = "8 TeV";
+  chanLumi[k_cms_zz_f4g]            = "19.6 ";
+  chanSqrtS[k_cms_zz_f4g]          = "8 ";
   chanExp[k_cms_zz_f4g]            = "CMS";
   chanaCC[k_cms_zz_f4g]  = 0.0   * scale_; 
   chanaCM[k_cms_zz_f4g]  = -0.05 * scale_; 
@@ -1898,8 +1898,8 @@ if (natgcz)
 
   chanName[k_cms_zz2_f4g]            = "f^{#gamma}_{4}";
   chanMeasurement[k_cms_zz2_f4g]     = "ZZ (2l2#nu)";
-  chanLumi[k_cms_zz2_f4g]            = "24.7 fb^{-1}";
-  chanSqrtS[k_cms_zz2_f4g]          = "7,8 TeV";
+  chanLumi[k_cms_zz2_f4g]            = "24.7 ";
+  chanSqrtS[k_cms_zz2_f4g]          = "7,8 ";
   chanExp[k_cms_zz2_f4g]            = "CMS";
   chanaCC[k_cms_zz2_f4g]  = 0.0   * scale_; 
   chanaCM[k_cms_zz2_f4g]  = -0.036 * scale_; 
@@ -1910,8 +1910,8 @@ if (natgcz)
 
   chanName[k_cms_zzc_f4g]            = "f^{#gamma}_{4}";
   chanMeasurement[k_cms_zzc_f4g]     = "ZZ (4l,2l2#nu)";
-  chanLumi[k_cms_zzc_f4g]            = "24.7 fb^{-1}";
-  chanSqrtS[k_cms_zzc_f4g]          = "7,8 TeV";
+  chanLumi[k_cms_zzc_f4g]            = "24.7 ";
+  chanSqrtS[k_cms_zzc_f4g]          = "7,8 ";
   chanExp[k_cms_zzc_f4g]            = "CMS";
   chanaCC[k_cms_zzc_f4g]  = 0.0   * scale_; 
   chanaCM[k_cms_zzc_f4g]  = -0.030 * scale_; 
@@ -1928,8 +1928,8 @@ if (natgcz)
 
   chanName[k_atlas_zz_f4z]            = "f^{Z}_{4}";
   chanMeasurement[k_atlas_zz_f4z]     = "ZZ (4l,2l2#nu)";
-  chanLumi[k_atlas_zz_f4z]            = "4.6 fb^{-1}";
-  chanSqrtS[k_atlas_zz_f4z]          = "7 TeV";
+  chanLumi[k_atlas_zz_f4z]            = "4.6 ";
+  chanSqrtS[k_atlas_zz_f4z]          = "7 ";
   chanExp[k_atlas_zz_f4z]            = "ATLAS";
   chanaCC[k_atlas_zz_f4z]  = 0.0   * scale_; 
   chanaCM[k_atlas_zz_f4z]  = -0.13 * scale_; 
@@ -1940,7 +1940,7 @@ if (natgcz)
 
 //   chanName[k_cms_zz_f4z]            = "f^{Z}_{4}";
 //   chanMeasurement[k_cms_zz_f4z]     = "ZZ";
-//   chanLumi[k_cms_zz_f4z]            = "5.0 fb^{-1}";
+//   chanLumi[k_cms_zz_f4z]            = "5.0 ";
 //   chanExp[k_cms_zz_f4z]            = "CMS";
 //   chanaCC[k_cms_zz_f4z]  = 0.0   * scale_; 
 //   chanaCM[k_cms_zz_f4z]  = -0.11 * scale_; 
@@ -1951,8 +1951,8 @@ if (natgcz)
 
   chanName[k_cms_zz_f4z]            = "f^{Z}_{4}";
   chanMeasurement[k_cms_zz_f4z]     = "ZZ (4l)";
-  chanLumi[k_cms_zz_f4z]            = "19.6 fb^{-1}";
-  chanSqrtS[k_cms_zz_f4z]          = "8 TeV";
+  chanLumi[k_cms_zz_f4z]            = "19.6 ";
+  chanSqrtS[k_cms_zz_f4z]          = "8 ";
   chanExp[k_cms_zz_f4z]            = "CMS";
   chanaCC[k_cms_zz_f4z]  = 0.0   * scale_; 
   chanaCM[k_cms_zz_f4z]  = -0.04 * scale_; 
@@ -1963,8 +1963,8 @@ if (natgcz)
 
   chanName[k_cms_zz2_f4z]            = "f^{Z}_{4}";
   chanMeasurement[k_cms_zz2_f4z]     = "ZZ (2l2#nu)";
-  chanLumi[k_cms_zz2_f4z]            = "24.7 fb^{-1}";
-  chanSqrtS[k_cms_zz2_f4z]          = "7,8 TeV";
+  chanLumi[k_cms_zz2_f4z]            = "24.7 ";
+  chanSqrtS[k_cms_zz2_f4z]          = "7,8 ";
   chanExp[k_cms_zz2_f4z]            = "CMS";
   chanaCC[k_cms_zz2_f4z]  = 0.0   * scale_; 
   chanaCM[k_cms_zz2_f4z]  = -0.027 * scale_; 
@@ -1975,8 +1975,8 @@ if (natgcz)
 
   chanName[k_cms_zzc_f4z]            = "f^{Z}_{4}";
   chanMeasurement[k_cms_zzc_f4z]     = "ZZ (4l,2l2#nu)";
-  chanLumi[k_cms_zzc_f4z]            = "24.7 fb^{-1}";
-  chanSqrtS[k_cms_zzc_f4z]          = "7,8 TeV";
+  chanLumi[k_cms_zzc_f4z]            = "24.7 ";
+  chanSqrtS[k_cms_zzc_f4z]          = "7,8 ";
   chanExp[k_cms_zzc_f4z]            = "CMS";
   chanaCC[k_cms_zzc_f4z]  = 0.0   * scale_; 
   chanaCM[k_cms_zzc_f4z]  = -0.021 * scale_; 
@@ -1995,8 +1995,8 @@ if (natgcz)
 
   chanName[k_atlas_zz_f5g]            = "f^{#gamma}_{5}";
   chanMeasurement[k_atlas_zz_f5g]     = "ZZ (4l,2l2#nu)";
-  chanLumi[k_atlas_zz_f5g]            = "4.6 fb^{-1}";
-  chanSqrtS[k_atlas_zz_f5g]          = "7 TeV";
+  chanLumi[k_atlas_zz_f5g]            = "4.6 ";
+  chanSqrtS[k_atlas_zz_f5g]          = "7 ";
   chanExp[k_atlas_zz_f5g]            = "ATLAS";
   chanaCC[k_atlas_zz_f5g]  = 0.0   * scale_; 
   chanaCM[k_atlas_zz_f5g]  = -0.16 * scale_; 
@@ -2008,7 +2008,7 @@ if (natgcz)
 
 //   chanName[k_cms_zz_f5g]            = "f^{#gamma}_{5}";
 //   chanMeasurement[k_cms_zz_f5g]     = "ZZ";
-//   chanLumi[k_cms_zz_f5g]            = "5.0 fb^{-1}";
+//   chanLumi[k_cms_zz_f5g]            = "5.0 ";
 //   chanExp[k_cms_zz_f5g]            = "CMS";
 //   chanaCC[k_cms_zz_f5g]  = 0.0   * scale_; 
 //   chanaCM[k_cms_zz_f5g]  = -0.14 * scale_; 
@@ -2019,8 +2019,8 @@ if (natgcz)
 
   chanName[k_cms_zz_f5g]            = "f^{#gamma}_{5}";
   chanMeasurement[k_cms_zz_f5g]     = "ZZ (4l)";
-  chanLumi[k_cms_zz_f5g]            = "19.6 fb^{-1}";
-  chanSqrtS[k_cms_zz_f5g]          = "8 TeV";
+  chanLumi[k_cms_zz_f5g]            = "19.6 ";
+  chanSqrtS[k_cms_zz_f5g]          = "8 ";
   chanExp[k_cms_zz_f5g]            = "CMS";
   chanaCC[k_cms_zz_f5g]  = 0.0   * scale_; 
   chanaCM[k_cms_zz_f5g]  = -0.05 * scale_; 
@@ -2031,8 +2031,8 @@ if (natgcz)
 
   chanName[k_cms_zz2_f5g]            = "f^{#gamma}_{5}";
   chanMeasurement[k_cms_zz2_f5g]     = "ZZ(2l2#nu)";
-  chanLumi[k_cms_zz2_f5g]            = "24.7 fb^{-1}";
-  chanSqrtS[k_cms_zz2_f5g]          = "7,8 TeV";
+  chanLumi[k_cms_zz2_f5g]            = "24.7 ";
+  chanSqrtS[k_cms_zz2_f5g]          = "7,8 ";
   chanExp[k_cms_zz2_f5g]            = "CMS";
   chanaCC[k_cms_zz2_f5g]  = 0.0   * scale_; 
   chanaCM[k_cms_zz2_f5g]  = -0.033 * scale_; 
@@ -2043,8 +2043,8 @@ if (natgcz)
 
   chanName[k_cms_zzc_f5g]            = "f^{#gamma}_{5}";
   chanMeasurement[k_cms_zzc_f5g]     = "ZZ(4l,2l2#nu)";
-  chanLumi[k_cms_zzc_f5g]            = "24.7 fb^{-1}";
-  chanSqrtS[k_cms_zzc_f5g]          = "7,8 TeV";
+  chanLumi[k_cms_zzc_f5g]            = "24.7 ";
+  chanSqrtS[k_cms_zzc_f5g]          = "7,8 ";
   chanExp[k_cms_zzc_f5g]            = "CMS";
   chanaCC[k_cms_zzc_f5g]  = 0.0   * scale_; 
   chanaCM[k_cms_zzc_f5g]  = -0.026 * scale_; 
@@ -2061,8 +2061,8 @@ if (natgcz)
 
   chanName[k_atlas_zz_f5z]            = "f^{Z}_{5}";
   chanMeasurement[k_atlas_zz_f5z]     = "ZZ (4l,2l2#nu)";
-  chanLumi[k_atlas_zz_f5z]            = "4.6 fb^{-1}";
-  chanSqrtS[k_atlas_zz_f5z]          = "7 TeV";
+  chanLumi[k_atlas_zz_f5z]            = "4.6 ";
+  chanSqrtS[k_atlas_zz_f5z]          = "7 ";
   chanExp[k_atlas_zz_f5z]            = "ATLAS";
   chanaCC[k_atlas_zz_f5z]  = 0.0   * scale_; 
   chanaCM[k_atlas_zz_f5z]  = -0.13 * scale_; 
@@ -2074,7 +2074,7 @@ if (natgcz)
   
 //   chanName[k_cms_zz_f5z]            = "f^{Z}_{5}";
 //   chanMeasurement[k_cms_zz_f5z]     = "ZZ";
-//   chanLumi[k_cms_zz_f5z]            = "5.0 fb^{-1}";
+//   chanLumi[k_cms_zz_f5z]            = "5.0 ";
 //   chanExp[k_cms_zz_f5z]            = "CMS";
 //   chanaCC[k_cms_zz_f5z]  = 0.0   * scale_; 
 //   chanaCM[k_cms_zz_f5z]  = -0.12 * scale_; 
@@ -2085,8 +2085,8 @@ if (natgcz)
 
   chanName[k_cms_zz_f5z]            = "f^{Z}_{5}";
   chanMeasurement[k_cms_zz_f5z]     = "ZZ (4l)";
-  chanLumi[k_cms_zz_f5z]            = "19.6 fb^{-1}";
-  chanSqrtS[k_cms_zz_f5z]          = "8 TeV";
+  chanLumi[k_cms_zz_f5z]            = "19.6 ";
+  chanSqrtS[k_cms_zz_f5z]          = "8 ";
   chanExp[k_cms_zz_f5z]            = "CMS";
   chanaCC[k_cms_zz_f5z]  = 0.0   * scale_; 
   chanaCM[k_cms_zz_f5z]  = -0.04 * scale_; 
@@ -2097,8 +2097,8 @@ if (natgcz)
 
   chanName[k_cms_zz2_f5z]            = "f^{Z}_{5}";
   chanMeasurement[k_cms_zz2_f5z]     = "ZZ (2l2#nu)";
-  chanLumi[k_cms_zz2_f5z]            = "24.7 fb^{-1}";
-  chanSqrtS[k_cms_zz2_f5z]          = "7,8 TeV";
+  chanLumi[k_cms_zz2_f5z]            = "24.7 ";
+  chanSqrtS[k_cms_zz2_f5z]          = "7,8 ";
   chanExp[k_cms_zz2_f5z]            = "CMS";
   chanaCC[k_cms_zz2_f5z]  = 0.0   * scale_; 
   chanaCM[k_cms_zz2_f5z]  = -0.029 * scale_; 
@@ -2109,8 +2109,8 @@ if (natgcz)
 
   chanName[k_cms_zzc_f5z]            = "f^{Z}_{5}";
   chanMeasurement[k_cms_zzc_f5z]     = "ZZ (4l,2l2#nu)";
-  chanLumi[k_cms_zzc_f5z]            = "24.7 fb^{-1}";
-  chanSqrtS[k_cms_zzc_f5z]          = "7,8 TeV";
+  chanLumi[k_cms_zzc_f5z]            = "24.7 ";
+  chanSqrtS[k_cms_zzc_f5z]          = "7,8 ";
   chanExp[k_cms_zzc_f5z]            = "CMS";
   chanaCC[k_cms_zzc_f5z]  = 0.0   * scale_; 
   chanaCM[k_cms_zzc_f5z]  = -0.022 * scale_; 
@@ -2124,8 +2124,8 @@ if (natgcz)
   chan = k_atlas_zz8_f4g;
   chanName[chan]            = "f^{#gamma}_{4}";
   chanMeasurement[chan]     = "ZZ (4l,2l2#nu)";
-  chanLumi[chan]            = "20.3 fb^{-1}";
-  chanSqrtS[chan]          = "8 TeV";
+  chanLumi[chan]            = "20.3 ";
+  chanSqrtS[chan]          = "8 ";
   chanExp[chan]            = "ATLAS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.038 * scale_; 
@@ -2135,8 +2135,8 @@ if (natgcz)
   chan = k_atlas_zz8_f4z;
   chanName[chan]            = "f^{Z}_{4}";
   chanMeasurement[chan]     = "ZZ (4l,2l2#nu)";
-  chanLumi[chan]            = "20.3 fb^{-1}";
-  chanSqrtS[chan]          = "8 TeV";
+  chanLumi[chan]            = "20.3 ";
+  chanSqrtS[chan]          = "8 ";
   chanExp[chan]            = "ATLAS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.033 * scale_; 
@@ -2146,8 +2146,8 @@ if (natgcz)
   chan = k_atlas_zz8_f5g;
   chanName[chan]            = "f^{#gamma}_{5}";
   chanMeasurement[chan]     = "ZZ (4l,2l2#nu)";
-  chanLumi[chan]            = "20.3 fb^{-1}";
-  chanSqrtS[chan]          = "8 TeV";
+  chanLumi[chan]            = "20.3 ";
+  chanSqrtS[chan]          = "8 ";
   chanExp[chan]            = "ATLAS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.038 * scale_; 
@@ -2157,8 +2157,8 @@ if (natgcz)
   chan = k_atlas_zz8_f5z;
   chanName[chan]            = "f^{Z}_{5}";
   chanMeasurement[chan]     = "ZZ (4l,2l2#nu)";
-  chanLumi[chan]            = "20.3 fb^{-1}";
-  chanSqrtS[chan]          = "8 TeV";
+  chanLumi[chan]            = "20.3 ";
+  chanSqrtS[chan]          = "8 ";
   chanExp[chan]            = "ATLAS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.033 * scale_; 
@@ -2175,8 +2175,8 @@ if (natgcz)
   chan = k_atlas_zz13_f4g;
   chanName[chan]            = "f^{#gamma}_{4}";
   chanMeasurement[chan]     = "ZZ (4l)";
-  chanLumi[chan]            = "36.1 fb^{-1}";
-  chanSqrtS[chan]          = "13 TeV";
+  chanLumi[chan]            = "36.1 ";
+  chanSqrtS[chan]          = "13 ";
   chanExp[chan]            = "ATLAS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.018 * scale_; 
@@ -2186,8 +2186,8 @@ if (natgcz)
   chan = k_atlas_zz13_f4z;
   chanName[chan]            = "f^{Z}_{4}";
   chanMeasurement[chan]     = "ZZ (4l)";
-  chanLumi[chan]            = "36.1 fb^{-1}";
-  chanSqrtS[chan]          = "13 TeV";
+  chanLumi[chan]            = "36.1 ";
+  chanSqrtS[chan]          = "13 ";
   chanExp[chan]            = "ATLAS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.015 * scale_; 
@@ -2197,8 +2197,8 @@ if (natgcz)
   chan = k_atlas_zz13_f5g;
   chanName[chan]            = "f^{#gamma}_{5}";
   chanMeasurement[chan]     = "ZZ (4l)";
-  chanLumi[chan]            = "36.1 fb^{-1}";
-  chanSqrtS[chan]          = "13 TeV";
+  chanLumi[chan]            = "36.1 ";
+  chanSqrtS[chan]          = "13 ";
   chanExp[chan]            = "ATLAS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.018 * scale_; 
@@ -2208,8 +2208,8 @@ if (natgcz)
   chan = k_atlas_zz13_f5z;
   chanName[chan]            = "f^{Z}_{5}";
   chanMeasurement[chan]     = "ZZ (4l)";
-  chanLumi[chan]            = "36.1 fb^{-1}";
-  chanSqrtS[chan]          = "13 TeV";
+  chanLumi[chan]            = "36.1 ";
+  chanSqrtS[chan]          = "13 ";
   chanExp[chan]            = "ATLAS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.015 * scale_; 
@@ -2227,8 +2227,8 @@ if (natgcz)
   chan = k_atlascms_zz_f4g;
   chanName[chan]            = "f^{#gamma}_{4}";
   chanMeasurement[chan]     = "ZZ (4l,2l2#nu)";
-  chanLumi[chan]            = "9.6 fb^{-1}";
-  chanSqrtS[chan]          = "7 TeV";
+  chanLumi[chan]            = "9.6 ";
+  chanSqrtS[chan]          = "7 ";
   chanExp[chan]            = "ATLAS+CMS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.10 * scale_; 
@@ -2238,8 +2238,8 @@ if (natgcz)
   chan = k_atlascms_zz_f4z;
   chanName[chan]            = "f^{Z}_{4}";
   chanMeasurement[chan]     = "ZZ (4l,2l2#nu)";
-  chanLumi[chan]            = "9.6 fb^{-1}";
-  chanSqrtS[chan]          = "7 TeV";
+  chanLumi[chan]            = "9.6 ";
+  chanSqrtS[chan]          = "7 ";
   chanExp[chan]            = "ATLAS+CMS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.087 * scale_; 
@@ -2249,8 +2249,8 @@ if (natgcz)
   chan = k_atlascms_zz_f5g;
   chanName[chan]            = "f^{#gamma}_{5}";
   chanMeasurement[chan]     = "ZZ (4l,2l2#nu)";
-  chanLumi[chan]            = "9.6 fb^{-1}";
-  chanSqrtS[chan]          = "7 TeV";
+  chanLumi[chan]            = "9.6 ";
+  chanSqrtS[chan]          = "7 ";
   chanExp[chan]            = "ATLAS+CMS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.11 * scale_; 
@@ -2260,8 +2260,8 @@ if (natgcz)
   chan = k_atlascms_zz_f5z;
   chanName[chan]            = "f^{Z}_{5}";
   chanMeasurement[chan]     = "ZZ (4l,2l2#nu)";
-  chanLumi[chan]            = "9.6 fb^{-1}";
-  chanSqrtS[chan]          = "7 TeV";
+  chanLumi[chan]            = "9.6 ";
+  chanSqrtS[chan]          = "7 ";
   chanExp[chan]            = "ATLAS+CMS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.091 * scale_; 
@@ -2274,8 +2274,8 @@ if (natgcz)
   chan = k_cms_zz13_f4g;
   chanName[chan]            = "f^{#gamma}_{4}";
   chanMeasurement[chan]     = "ZZ (4l)";
-  chanLumi[chan]            = "35.9 fb^{-1}";
-  chanSqrtS[chan]          = "13 TeV";
+  chanLumi[chan]            = "35.9 ";
+  chanSqrtS[chan]          = "13 ";
   chanExp[chan]            = "CMS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.012 * scale_; 
@@ -2285,8 +2285,8 @@ if (natgcz)
   chan = k_cms_zz13_f4z;
   chanName[chan]            = "f^{Z}_{4}";
   chanMeasurement[chan]     = "ZZ (4l)";
-  chanLumi[chan]            = "35.9 fb^{-1}";
-  chanSqrtS[chan]          = "13 TeV";
+  chanLumi[chan]            = "35.9 ";
+  chanSqrtS[chan]          = "13 ";
   chanExp[chan]            = "CMS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.012 * scale_; 
@@ -2296,8 +2296,8 @@ if (natgcz)
   chan = k_cms_zz13_f5g;
   chanName[chan]            = "f^{#gamma}_{5}";
   chanMeasurement[chan]     = "ZZ (4l)";
-  chanLumi[chan]            = "35.9 fb^{-1}";
-  chanSqrtS[chan]          = "13 TeV";
+  chanLumi[chan]            = "35.9 ";
+  chanSqrtS[chan]          = "13 ";
   chanExp[chan]            = "CMS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.012 * scale_; 
@@ -2307,8 +2307,8 @@ if (natgcz)
   chan = k_cms_zz13_f5z;
   chanName[chan]            = "f^{Z}_{5}";
   chanMeasurement[chan]     = "ZZ (4l)";
-  chanLumi[chan]            = "35.9 fb^{-1}";
-  chanSqrtS[chan]          = "13 TeV";
+  chanLumi[chan]            = "35.9 ";
+  chanSqrtS[chan]          = "13 ";
   chanExp[chan]            = "CMS";
   chanaCC[chan]  = 0.0   * scale_; 
   chanaCM[chan]  = -0.0100 * scale_; 
@@ -2334,9 +2334,9 @@ if (aqgc_a) {
 
   chanName[k_cms_wwg8_a0w]            = "a^{W}_{0} /#Lambda^{2}";
   chanMeasurement[k_cms_wwg8_a0w]     = "WW#gamma";
-  chanLumi[k_cms_wwg8_a0w]            = "19.3 fb^{-1}";
+  chanLumi[k_cms_wwg8_a0w]            = "19.3 ";
   chanExp[k_cms_wwg8_a0w]            = "CMS";
-  chanSqrtS[k_cms_wwg8_a0w]          = "8 TeV";
+  chanSqrtS[k_cms_wwg8_a0w]          = "8 ";
   chanaCC[k_cms_wwg8_a0w]  = 0.0   * scale_; 
   chanaCM[k_cms_wwg8_a0w]  = -21 * scale_; 
   chanaCP[k_cms_wwg8_a0w]  = 20 * scale_; 
@@ -2347,9 +2347,9 @@ if (aqgc_a) {
 
       chanName[k_cms_ssww8_a0w]            = "a^{W}_{0} /#Lambda^{2}";
   chanMeasurement[k_cms_ssww8_a0w]     = "ss WW";
-  chanLumi[k_cms_ssww8_a0w]            = "19.4 fb^{-1}";
+  chanLumi[k_cms_ssww8_a0w]            = "19.4 ";
   chanExp[k_cms_ssww8_a0w]            = "CMS";
-  chanSqrtS[k_cms_ssww8_a0w]          = "8 TeV";
+  chanSqrtS[k_cms_ssww8_a0w]          = "8 ";
   chanaCC[k_cms_ssww8_a0w]  = 0.0   * scale_; 
   chanaCM[k_cms_ssww8_a0w]  = -32 * fm0toa0w * scale_; 
   chanaCP[k_cms_ssww8_a0w]  = 33 * fm0toa0w  * scale_; 
@@ -2361,9 +2361,9 @@ if (aqgc_a) {
   chan = k_atlas_ggww8_a0w;
   chanName[chan]        = "a^{W}_{0} /#Lambda^{2}";
   chanMeasurement[chan] = "#gamma#gamma#rightarrowWW";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = - 1.7 * scale_; 
   chanaCP[chan]       =  1.7 * scale_; 
@@ -2373,9 +2373,9 @@ if (aqgc_a) {
   chan = k_atlas_ggww8_acw;
   chanName[chan]        = "a^{W}_{C} /#Lambda^{2}";
   chanMeasurement[chan] = "#gamma#gamma#rightarrowWW";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -6.4 * scale_; 
   chanaCP[chan]       =  6.3 * scale_; 
@@ -2389,9 +2389,9 @@ if (aqgc_a) {
   chan = k_cms_ggww_a0w;
   chanName[chan]        = "a^{W}_{0} /#Lambda^{2}";
   chanMeasurement[chan] = "#gamma#gamma#rightarrowWW";
-  chanLumi[chan]        = "5.1 fb^{-1}";
+  chanLumi[chan]        = "5.1 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "7 TeV";
+  chanSqrtS[chan]       = "7 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -4.0 * scale_; 
   chanaCP[chan]       = 4.0 * scale_; 
@@ -2404,9 +2404,9 @@ if (aqgc_a) {
 
     chanName[k_cms_ggww8_a0w]            = "a^{W}_{0} /#Lambda^{2}";
   chanMeasurement[k_cms_ggww8_a0w]     = "#gamma#gamma#rightarrowWW";
-  chanLumi[k_cms_ggww8_a0w]            = "24.7 fb^{-1}";
+  chanLumi[k_cms_ggww8_a0w]            = "24.7 ";
   chanExp[k_cms_ggww8_a0w]            = "CMS";
-  chanSqrtS[k_cms_ggww8_a0w]          = "7,8 TeV";
+  chanSqrtS[k_cms_ggww8_a0w]          = "7,8 ";
   chanaCC[k_cms_ggww8_a0w]  = 0.0   * scale_; 
   chanaCM[k_cms_ggww8_a0w]  = -1.1 * scale_; 
   chanaCP[k_cms_ggww8_a0w]  = 1.1 * scale_; 
@@ -2418,9 +2418,9 @@ if (aqgc_a) {
 
   chanName[k_cms_wwg8_acw]            = "a^{W}_{C} /#Lambda^{2}";
   chanMeasurement[k_cms_wwg8_acw]     = "WW#gamma";
-  chanLumi[k_cms_wwg8_acw]            = "19.3 fb^{-1}";
+  chanLumi[k_cms_wwg8_acw]            = "19.3 ";
   chanExp[k_cms_wwg8_acw]            = "CMS";
-  chanSqrtS[k_cms_wwg8_acw]          = "8 TeV";
+  chanSqrtS[k_cms_wwg8_acw]          = "8 ";
   chanaCC[k_cms_wwg8_acw]  = 0.0   * scale_; 
   chanaCM[k_cms_wwg8_acw]  = -34 * scale_; 
   chanaCP[k_cms_wwg8_acw]  = 32 * scale_; 
@@ -2433,9 +2433,9 @@ if (aqgc_a) {
   chan = k_cms_ssww8_acw;
   chanName[chan]        = "a^{W}_{C} /#Lambda^{2}";
   chanMeasurement[chan] = "ss WW";
-  chanLumi[chan]        = "19.4 fb^{-1}";
+  chanLumi[chan]        = "19.4 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -44 * fm1toacw * scale_; 
   chanaCP[chan]       = 47 *  fm1toacw * scale_; 
@@ -2449,9 +2449,9 @@ if (aqgc_a) {
 
   chanName[k_cms_ggww_acw]            = "a^{W}_{C} /#Lambda^{2}";
   chanMeasurement[k_cms_ggww_acw]     = "#gamma#gamma#rightarrowWW";
-  chanLumi[k_cms_ggww_acw]            = "5.1 fb^{-1}";
+  chanLumi[k_cms_ggww_acw]            = "5.1 ";
   chanExp[k_cms_ggww_acw]            = "CMS";
-  chanSqrtS[k_cms_ggww_acw]          = "7 TeV";
+  chanSqrtS[k_cms_ggww_acw]          = "7 ";
   chanaCC[k_cms_ggww_acw]  = 0.0   * scale_; 
   chanaCM[k_cms_ggww_acw]  = -15.0 * scale_; 
   chanaCP[k_cms_ggww_acw]  = 15.0 * scale_; 
@@ -2463,9 +2463,9 @@ if (aqgc_a) {
 
   chanName[k_cms_ggww8_acw]            = "a^{W}_{C} /#Lambda^{2}";
   chanMeasurement[k_cms_ggww8_acw]     = "#gamma#gamma#rightarrowWW";
-  chanLumi[k_cms_ggww8_acw]            = "24.7 fb^{-1}";
+  chanLumi[k_cms_ggww8_acw]            = "24.7 ";
   chanExp[k_cms_ggww8_acw]            = "CMS";
-  chanSqrtS[k_cms_ggww8_acw]          = "7,8 TeV";
+  chanSqrtS[k_cms_ggww8_acw]          = "7,8 ";
   chanaCC[k_cms_ggww8_acw]  = 0.0   * scale_; 
   chanaCM[k_cms_ggww8_acw]  = -4.1 * scale_; 
   chanaCP[k_cms_ggww8_acw]  = 4.1 * scale_; 
@@ -2485,9 +2485,9 @@ if (aqgc_fm) {
   chan = k_atlas_zgg8_fm2;
   chanName[chan]        = "f_{M,2} /#Lambda^{4}";
   chanMeasurement[chan] = "Z#gamma#gamma";
-  chanLumi[chan]        = "20.3 fb^{-1}";
+  chanLumi[chan]        = "20.3 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -16000 * 0.25 * gp*gp * scale_; 
   chanaCP[chan]       = 16000 * 0.25 * gp*gp * scale_; 
@@ -2496,9 +2496,9 @@ if (aqgc_fm) {
   chan = k_atlas_zgg8_fm3;
   chanName[chan]        = "f_{M,3} /#Lambda^{4}";
   chanMeasurement[chan] = "Z#gamma#gamma";
-  chanLumi[chan]        = "20.3 fb^{-1}";
+  chanLumi[chan]        = "20.3 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -27000 * 0.25 * gp*gp * scale_; 
   chanaCP[chan]       = 29000 * 0.25 * gp*gp * scale_; 
@@ -2509,9 +2509,9 @@ if (aqgc_fm) {
   chan = k_cms_wgg8_fm2;
   chanName[chan]        = "f_{M,2} /#Lambda^{4}";
   chanMeasurement[chan] = "W#gamma#gamma";
-  chanLumi[chan]        = "19.4 fb^{-1}";
+  chanLumi[chan]        = "19.4 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0 * scale_; 
   chanaCM[chan]       = -701 * scale_; 
   chanaCP[chan]       = 683 * scale_; 
@@ -2520,9 +2520,9 @@ if (aqgc_fm) {
   chan = k_cms_wgg8_fm3;
   chanName[chan]        = "f_{M,3} /#Lambda^{4}";
   chanMeasurement[chan] = "W#gamma#gamma";
-  chanLumi[chan]        = "19.4 fb^{-1}";
+  chanLumi[chan]        = "19.4 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -1170 * scale_; 
   chanaCP[chan]       = 1220 * scale_; 
@@ -2536,9 +2536,9 @@ if (aqgc_fm) {
   chan = k_cms_wvg8_fm0;
   chanName[chan]        = "f_{M,0} /#Lambda^{4}";
   chanMeasurement[chan] = "WV#gamma";
-  chanLumi[chan]        = "19.3 fb^{-1}";
+  chanLumi[chan]        = "19.3 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   // CMS gg->WW type parameters
   chanaCM[chan]       = -77 * scale_; 
@@ -2552,9 +2552,9 @@ if (aqgc_fm) {
   chan = k_cms_wvg8_fm1;
   chanName[chan]        = "f_{M,1} /#Lambda^{4}";
   chanMeasurement[chan] = "WV#gamma";
-  chanLumi[chan]        = "19.3 fb^{-1}";
+  chanLumi[chan]        = "19.3 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   // CMS gg->WW type parameters
   chanaCM[chan]       = -131 * scale_; 
@@ -2571,9 +2571,9 @@ if (aqgc_fm) {
   chan = k_cms_wg8_fm0;
   chanName[chan]        = "f_{M,0} /#Lambda^{4}";
   chanMeasurement[chan] = "W#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -77 * scale_; 
   chanaCP[chan]       =  74 * scale_; 
@@ -2582,9 +2582,9 @@ if (aqgc_fm) {
   chan = k_cms_wg8_fm1;
   chanName[chan]        = "f_{M,1} /#Lambda^{4}";
   chanMeasurement[chan] = "W#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_;
   chanaCM[chan]       = -125 * scale_;
   chanaCP[chan]       =  129 * scale_;
@@ -2593,9 +2593,9 @@ if (aqgc_fm) {
   chan = k_cms_wg8_fm2;
   chanName[chan]        = "f_{M,2} /#Lambda^{4}";
   chanMeasurement[chan] = "W#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_;
   chanaCM[chan]       = -26 * scale_;
   chanaCP[chan]       =  26 * scale_;
@@ -2604,9 +2604,9 @@ if (aqgc_fm) {
   chan = k_cms_wg8_fm3;
   chanName[chan]        = "f_{M,3} /#Lambda^{4}";
   chanMeasurement[chan] = "W#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_;
   chanaCM[chan]       = -43 * scale_;
   chanaCP[chan]       =  44 * scale_;
@@ -2615,9 +2615,9 @@ if (aqgc_fm) {
   chan = k_cms_wg8_fm4;
   chanName[chan]        = "f_{M,4} /#Lambda^{4}";
   chanMeasurement[chan] = "W#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_;
   chanaCM[chan]       = -40 * scale_;
   chanaCP[chan]       =  40 * scale_;
@@ -2626,9 +2626,9 @@ if (aqgc_fm) {
   chan = k_cms_wg8_fm5;
   chanName[chan]        = "f_{M,5} /#Lambda^{4}";
   chanMeasurement[chan] = "W#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_;
   chanaCM[chan]       = -65 * scale_;
   chanaCP[chan]       =  65 * scale_;
@@ -2639,9 +2639,9 @@ if (aqgc_fm) {
   chan = k_cms_wg8_fm6;
   chanName[chan]        = "f_{M,6} /#Lambda^{4}";
   chanMeasurement[chan] = "W#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_;
   chanaCM[chan]       = -129 * scale_;
   chanaCP[chan]       =  129 * scale_;
@@ -2650,9 +2650,9 @@ if (aqgc_fm) {
   chan = k_cms_wg8_fm7;
   chanName[chan]        = "f_{M,7} /#Lambda^{4}";
   chanMeasurement[chan] = "W#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_;
   chanaCM[chan]       = -164 * scale_;
   chanaCP[chan]       =  162 * scale_;
@@ -2664,9 +2664,9 @@ if (aqgc_fm) {
   chan = k_cms_zg8_fm0;
   chanName[chan]        = "f_{M,0} /#Lambda^{4}";
   chanMeasurement[chan] = "Z#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -71 * scale_; 
   chanaCP[chan]       =  75 * scale_; 
@@ -2675,9 +2675,9 @@ if (aqgc_fm) {
   chan = k_cms_zg8_fm1;
   chanName[chan]        = "f_{M,1} /#Lambda^{4}";
   chanMeasurement[chan] = "Z#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -190 * scale_; 
   chanaCP[chan]       =  182 * scale_; 
@@ -2687,9 +2687,9 @@ if (aqgc_fm) {
   chan = k_cms_zg8_fm2;
   chanName[chan]        = "f_{M,2} /#Lambda^{4}";
   chanMeasurement[chan] = "Z#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -32 * scale_; 
   chanaCP[chan]       =  31 * scale_; 
@@ -2698,9 +2698,9 @@ if (aqgc_fm) {
   chan = k_cms_zg8_fm3;
   chanName[chan]        = "f_{M,3} /#Lambda^{4}";
   chanMeasurement[chan] = "Z#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -58 * scale_; 
   chanaCP[chan]       =  59 * scale_; 
@@ -2713,9 +2713,9 @@ if (aqgc_fm) {
   chan = k_atlas_zg8_fm0;
   chanName[chan]        = "f_{M,0} /#Lambda^{4}";
   chanMeasurement[chan] = "Z#gamma";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -76 * scale_; 
   chanaCP[chan]       =  69 * scale_; 
@@ -2724,9 +2724,9 @@ if (aqgc_fm) {
   chan = k_atlas_zg8_fm1;
   chanName[chan]        = "f_{M,1} /#Lambda^{4}";
   chanMeasurement[chan] = "Z#gamma";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -147 * scale_; 
   chanaCP[chan]       =  150 * scale_; 
@@ -2736,9 +2736,9 @@ if (aqgc_fm) {
   chan = k_atlas_zg8_fm2;
   chanName[chan]        = "f_{M,2} /#Lambda^{4}";
   chanMeasurement[chan] = "Z#gamma";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -27 * scale_; 
   chanaCP[chan]       =  27 * scale_; 
@@ -2747,9 +2747,9 @@ if (aqgc_fm) {
   chan = k_atlas_zg8_fm3;
   chanName[chan]        = "f_{M,3} /#Lambda^{4}";
   chanMeasurement[chan] = "Z#gamma";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -52 * scale_; 
   chanaCP[chan]       =  52 * scale_; 
@@ -2764,9 +2764,9 @@ if (aqgc_fm) {
   chan = k_atlas_wgg8_fm2;
   chanName[chan]        = "f_{M,2} /#Lambda^{4}";
   chanMeasurement[chan] = "W#gamma#gamma";
-  chanLumi[chan]        = "20.3 fb^{-1}";
+  chanLumi[chan]        = "20.3 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -8000 * (gp*gp/4.0) * scale_; 
   chanaCP[chan]       =  8000 * (gp*gp/4.0) * scale_; 
@@ -2776,9 +2776,9 @@ if (aqgc_fm) {
   chan = k_atlas_wgg8_fm3;
   chanName[chan]        = "f_{M,3} /#Lambda^{4}";
   chanMeasurement[chan] = "W#gamma#gamma";
-  chanLumi[chan]        = "20.3 fb^{-1}";
+  chanLumi[chan]        = "20.3 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -14000 * (gp*gp/4.0) * scale_; 
   chanaCP[chan]       =  15000 * (gp*gp/4.0) * scale_; 
@@ -2792,9 +2792,9 @@ if (aqgc_fm) {
   chan = k_cms_ssww8_fm0;
   chanName[chan]        = "f_{M,0} /#Lambda^{4}";
   chanMeasurement[chan] = "ss WW";
-  chanLumi[chan]        = "19.4 fb^{-1}";
+  chanLumi[chan]        = "19.4 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -33 * scale_; 
   chanaCP[chan]       =  32 * scale_;
@@ -2803,9 +2803,9 @@ if (aqgc_fm) {
   chan = k_cms_ssww8_fm1;
   chanName[chan]        = "f_{M,1} /#Lambda^{4}";
   chanMeasurement[chan] = "ss WW";
-  chanLumi[chan]        = "19.4 fb^{-1}";
+  chanLumi[chan]        = "19.4 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -44 * scale_; 
   chanaCP[chan]       =  47 * scale_;
@@ -2814,9 +2814,9 @@ if (aqgc_fm) {
   chan = k_cms_ssww8_fm6;
   chanName[chan]        = "f_{M,6} /#Lambda^{4}";
   chanMeasurement[chan] = "ss WW";
-  chanLumi[chan]        = "19.4 fb^{-1}";
+  chanLumi[chan]        = "19.4 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -65 * scale_; 
   chanaCP[chan]       =  63 * scale_;
@@ -2825,9 +2825,9 @@ if (aqgc_fm) {
   chan = k_cms_ssww8_fm7;
   chanName[chan]        = "f_{M,7} /#Lambda^{4}";
   chanMeasurement[chan] = "ss WW";
-  chanLumi[chan]        = "19.4 fb^{-1}";
+  chanLumi[chan]        = "19.4 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -70 * scale_; 
   chanaCP[chan]       =  66 * scale_;
@@ -2839,9 +2839,9 @@ if (aqgc_fm) {
   chan = k_cms_ssww13_fm0;
   chanName[chan]        = "f_{M,0} /#Lambda^{4}";
   chanMeasurement[chan] = "ss WW";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -6.0 * scale_; 
   chanaCP[chan]       =  5.9 * scale_;
@@ -2850,9 +2850,9 @@ if (aqgc_fm) {
   chan = k_cms_ssww13_fm1;
   chanName[chan]        = "f_{M,1} /#Lambda^{4}";
   chanMeasurement[chan] = "ss WW";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -8.7 * scale_; 
   chanaCP[chan]       =  9.1 * scale_;
@@ -2861,9 +2861,9 @@ if (aqgc_fm) {
   chan = k_cms_ssww13_fm6;
   chanName[chan]        = "f_{M,6} /#Lambda^{4}";
   chanMeasurement[chan] = "ss WW";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -11.9 * scale_; 
   chanaCP[chan]       =  11.8 * scale_;
@@ -2872,9 +2872,9 @@ if (aqgc_fm) {
   chan = k_cms_ssww13_fm7;
   chanName[chan]        = "f_{M,7} /#Lambda^{4}";
   chanMeasurement[chan] = "ss WW";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -13.3 * scale_; 
   chanaCP[chan]       =  12.9 * scale_;
@@ -2887,9 +2887,9 @@ if (aqgc_fm) {
   chan = k_cms_wz13_fm0;
   chanName[chan]        = "f_{M,0} /#Lambda^{4}";
   chanMeasurement[chan] = "WZ";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -8.8 * scale_; 
   chanaCP[chan]       =  8.55 * scale_;
@@ -2898,9 +2898,9 @@ if (aqgc_fm) {
   chan = k_cms_wz13_fm1;
   chanName[chan]        = "f_{M,1} /#Lambda^{4}";
   chanMeasurement[chan] = "WZ";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -8.25 * scale_; 
   chanaCP[chan]       =  8.85 * scale_;
@@ -2917,9 +2917,9 @@ if (aqgc_fm) {
   chan = k_atlas_ggww8_fm0;
   chanName[chan]        = "f_{M,0} /#Lambda^{4}";
   chanMeasurement[chan] = "#gamma#gamma#rightarrowWW";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = - g*g* 66.0 * scale_; 
   chanaCP[chan]       =  g*g* 66.0 * scale_; 
@@ -2932,9 +2932,9 @@ if (aqgc_fm) {
   chan = k_atlas_ggww8_fm1;
   chanName[chan]        = "f_{M,1} /#Lambda^{4}";
   chanMeasurement[chan] = "#gamma#gamma#rightarrowWW";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -g*g*250.0 * scale_; 
   chanaCP[chan]       =  g*g*240.0 * scale_;
@@ -2950,9 +2950,9 @@ if (aqgc_fm) {
   chan = k_cms_ggww_fm0;
   chanName[chan]        = "f_{M,0} /#Lambda^{4}";
   chanMeasurement[chan] = "#gamma#gamma#rightarrowWW";
-  chanLumi[chan]        = "5.1 fb^{-1}";
+  chanLumi[chan]        = "5.1 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "7 TeV";
+  chanSqrtS[chan]       = "7 ";
   chanaCC[chan]       = 0.0   * scale_;
   // to go to CMS gg->WW f type parameters
   chanaCM[chan]       =  (-4.0/fm0toa0w) * scale_; 
@@ -2966,9 +2966,9 @@ if (aqgc_fm) {
   chan = k_cms_ggww_fm1;
   chanName[chan]        = "f_{M,1} /#Lambda^{4}";
   chanMeasurement[chan] = "#gamma#gamma#rightarrowWW";
-  chanLumi[chan]        = "5.1 fb^{-1}";
+  chanLumi[chan]        = "5.1 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "7 TeV";
+  chanSqrtS[chan]       = "7 ";
   chanaCC[chan]       = 0.0   * scale_; 
   // to go to CMS gg->WW type f paramters
   chanaCM[chan]       =  (-15/fm1toacw) * scale_; 
@@ -2985,9 +2985,9 @@ if (aqgc_fm) {
   chan = k_cms_ggww8_fm0;
   chanName[chan]        = "f_{M,0} /#Lambda^{4}";
   chanMeasurement[chan] = "#gamma#gamma#rightarrowWW";
-  chanLumi[chan]        = "24.7 fb^{-1}";
+  chanLumi[chan]        = "24.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "7,8 TeV";
+  chanSqrtS[chan]       = "7,8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   // CMS type f parameters
   chanaCM[chan]       = -4.2 * scale_; 
@@ -3001,9 +3001,9 @@ if (aqgc_fm) {
   chan = k_cms_ggww8_fm1;
   chanName[chan]        = "f_{M,1} /#Lambda^{4}";
   chanMeasurement[chan] = "#gamma#gamma#rightarrowWW";
-  chanLumi[chan]        = "24.7 fb^{-1}";
+  chanLumi[chan]        = "24.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "7,8 TeV";
+  chanSqrtS[chan]       = "7,8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   // CMS type f parameters
   chanaCM[chan]       = -16 * scale_; 
@@ -3022,9 +3022,9 @@ if (aqgc_fm) {
   chan = k_atlas_wvg8_fm0;
   chanName[chan]        = "f_{M,0} /#Lambda^{4}";
   chanMeasurement[chan] = "WV#gamma";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -300.0 * g*g * scale_; 
   chanaCP[chan]       = 300.0 * g*g * scale_; 
@@ -3033,9 +3033,9 @@ if (aqgc_fm) {
     chan = k_atlas_wvg8_fm1;
   chanName[chan]        = "f_{M,1} /#Lambda^{4}";
   chanMeasurement[chan] = "WV#gamma";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -500.0 * g*g * scale_; 
   chanaCP[chan]       = 500.0 * g*g * scale_; 
@@ -3044,9 +3044,9 @@ if (aqgc_fm) {
    chan = k_atlas_wvg8_fm2;
   chanName[chan]        = "f_{M,2} /#Lambda^{4}";
   chanMeasurement[chan] = "WV#gamma";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -1800.0 * (gp*gp/4.0) * scale_; 
   chanaCP[chan]       = 1800.0 * (gp*gp/4.0) * scale_; 
@@ -3055,9 +3055,9 @@ if (aqgc_fm) {
    chan = k_atlas_wvg8_fm3;
   chanName[chan]        = "f_{M,3} /#Lambda^{4}";
   chanMeasurement[chan] = "WV#gamma";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -3000.0 * (gp*gp/4.0) * scale_; 
   chanaCP[chan]       = 3100.0 * (gp*gp/4.0) * scale_; 
@@ -3067,9 +3067,9 @@ if (aqgc_fm) {
    chan = k_atlas_wvg8_fm4;
   chanName[chan]        = "f_{M,4} /#Lambda^{4}";
   chanMeasurement[chan] = "WV#gamma";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -1100.0 * (g*gp/2.0) * scale_; 
   chanaCP[chan]       = 1100.0 * (g*gp/2.0) * scale_; 
@@ -3078,9 +3078,9 @@ if (aqgc_fm) {
    chan = k_atlas_wvg8_fm5;
   chanName[chan]        = "f_{M,5} /#Lambda^{4}";
   chanMeasurement[chan] = "WV#gamma";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -1700.0 * (g*gp/2.0) * scale_; 
   chanaCP[chan]       = 1700.0 * (g*gp/2.0) * scale_; 
@@ -3089,9 +3089,9 @@ if (aqgc_fm) {
      chan = k_atlas_wvg8_fm6;
   chanName[chan]        = "f_{M,6} /#Lambda^{4}";
   chanMeasurement[chan] = "WV#gamma";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -600.0 * (g*g) * scale_; 
   chanaCP[chan]       = 600.0 * (g*g) * scale_; 
@@ -3100,9 +3100,9 @@ if (aqgc_fm) {
      chan = k_atlas_wvg8_fm7;
   chanName[chan]        = "f_{M,7} /#Lambda^{4}";
   chanMeasurement[chan] = "WV#gamma";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -1100.0 * (g*g) * scale_; 
   chanaCP[chan]       = 1100.0 * (g*g) * scale_; 
@@ -3113,9 +3113,9 @@ if (aqgc_fm) {
   chan = k_cms_vv13_fm0;
   chanName[chan]        = "f_{M,0} /#Lambda^{4}";
   chanMeasurement[chan] = "WV ZV";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -0.66 * scale_; 
   chanaCP[chan]       =  0.66 * scale_; 
@@ -3124,9 +3124,9 @@ if (aqgc_fm) {
   chan = k_cms_vv13_fm1;
   chanName[chan]        = "f_{M,1} /#Lambda^{4}";
   chanMeasurement[chan] = "WV ZV";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -1.9 * scale_; 
   chanaCP[chan]       =  2.0 * scale_; 
@@ -3135,9 +3135,9 @@ if (aqgc_fm) {
   chan = k_cms_vv13_fm6;
   chanName[chan]        = "f_{M,6} /#Lambda^{4}";
   chanMeasurement[chan] = "WV ZV";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -1.3 * scale_; 
   chanaCP[chan]       =  1.3 * scale_; 
@@ -3146,9 +3146,9 @@ if (aqgc_fm) {
   chan = k_cms_vv13_fm7;
   chanName[chan]        = "f_{M,7} /#Lambda^{4}";
   chanMeasurement[chan] = "WV ZV";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -3.3 * scale_; 
   chanaCP[chan]       =  3.3 * scale_; 
@@ -3166,9 +3166,9 @@ if (aqgc_ft) {
   chan = k_atlas_zgg8_ft0;
   chanName[chan]        = "f_{T,0} /#Lambda^{4}";
   chanMeasurement[chan] = "Z#gamma#gamma";
-  chanLumi[chan]        = "20.3 fb^{-1}";
+  chanLumi[chan]        = "20.3 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -86.0 * g*g*g*g * scale_; 
   chanaCP[chan]       = 103.0 * g*g*g*g * scale_; 
@@ -3178,9 +3178,9 @@ if (aqgc_ft) {
   chan = k_atlas_zgg8_ft5;
   chanName[chan]        = "f_{T,5} /#Lambda^{4}";
   chanMeasurement[chan] = "Z#gamma#gamma";
-  chanLumi[chan]        = "20.3 fb^{-1}";
+  chanLumi[chan]        = "20.3 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -690.0 * 0.25 * g*g*gp*gp * scale_; 
   chanaCP[chan]       = 680.0 * 0.25 * g*g*gp*gp * scale_; 
@@ -3189,9 +3189,9 @@ if (aqgc_ft) {
   chan = k_atlas_zgg8_ft9;
   chanName[chan]        = "f_{T,9} /#Lambda^{4}";
   chanMeasurement[chan] = "Z#gamma#gamma";
-  chanLumi[chan]        = "20.3 fb^{-1}";
+  chanLumi[chan]        = "20.3 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -7400.0 * 0.25 * 0.25 * gp*gp*gp*gp * scale_; 
   chanaCP[chan]       = 7400.0 * 0.25 * 0.25 * gp*gp*gp*gp * scale_; 
@@ -3202,9 +3202,9 @@ if (aqgc_ft) {
   chan = k_cms_wgg8_ft0;
   chanName[chan]        = "f_{T,0} /#Lambda^{4}";
   chanMeasurement[chan] = "W#gamma#gamma";
-  chanLumi[chan]        = "19.4 fb^{-1}";
+  chanLumi[chan]        = "19.4 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -33.5 * scale_; 
   chanaCP[chan]       = 34.0 * scale_; 
@@ -3213,9 +3213,9 @@ if (aqgc_ft) {
   chan = k_cms_wgg8_ft1;
   chanName[chan]        = "f_{T,1} /#Lambda^{4}";
   chanMeasurement[chan] = "W#gamma#gamma";
-  chanLumi[chan]        = "19.4 fb^{-1}";
+  chanLumi[chan]        = "19.4 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -44.3 * scale_; 
   chanaCP[chan]       = 44.8 * scale_; 
@@ -3224,9 +3224,9 @@ if (aqgc_ft) {
   chan = k_cms_wgg8_ft2;
   chanName[chan]        = "f_{T,2} /#Lambda^{4}";
   chanMeasurement[chan] = "W#gamma#gamma";
-  chanLumi[chan]        = "19.4 fb^{-1}";
+  chanLumi[chan]        = "19.4 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -93.8 * scale_; 
   chanaCP[chan]       = 93.2 * scale_; 
@@ -3240,9 +3240,9 @@ if (aqgc_ft) {
   chan = k_atlas_wgg8_ft0;
   chanName[chan]        = "f_{T,0} /#Lambda^{4}";
   chanMeasurement[chan] = "W#gamma#gamma";
-  chanLumi[chan]        = "20.3 fb^{-1}";
+  chanLumi[chan]        = "20.3 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -90* g*g*g*g * scale_; 
   chanaCP[chan]       = 90* g*g*g*g * scale_; 
@@ -3256,9 +3256,9 @@ if (aqgc_ft) {
   chan = k_cms_wvg8_ft0;
   chanName[chan]        = "f_{T,0} /#Lambda^{4}";
   chanMeasurement[chan] = "WV#gamma";
-  chanLumi[chan]        = "19.3 fb^{-1}";
+  chanLumi[chan]        = "19.3 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -25 * scale_; 
   chanaCP[chan]       = 24 * scale_; 
@@ -3271,9 +3271,9 @@ if (aqgc_ft) {
  chan = k_cms_wg8_ft0;
   chanName[chan]        = "f_{T,0} /#Lambda^{4}";
   chanMeasurement[chan] = "W#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -5.4 * scale_; 
   chanaCP[chan]       =  5.6 * scale_; 
@@ -3282,9 +3282,9 @@ if (aqgc_ft) {
   chan = k_cms_wg8_ft1;
   chanName[chan]        = "f_{T,1} /#Lambda^{4}";
   chanMeasurement[chan] = "W#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_;
   chanaCM[chan]       = -3.7 * scale_;
   chanaCP[chan]       =  4.0 * scale_;
@@ -3293,9 +3293,9 @@ if (aqgc_ft) {
   chan = k_cms_wg8_ft2;
   chanName[chan]        = "f_{T,2} /#Lambda^{4}";
   chanMeasurement[chan] = "W#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_;
   chanaCM[chan]       = -11 * scale_;
   chanaCP[chan]       =  12 * scale_;
@@ -3304,9 +3304,9 @@ if (aqgc_ft) {
    chan = k_cms_wg8_ft5;
   chanName[chan]        = "f_{T,5} /#Lambda^{4}";
   chanMeasurement[chan] = "W#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -3.8 * scale_; 
   chanaCP[chan]       =  3.8 * scale_; 
@@ -3315,9 +3315,9 @@ if (aqgc_ft) {
   chan = k_cms_wg8_ft6;
   chanName[chan]        = "f_{T,6} /#Lambda^{4}";
   chanMeasurement[chan] = "W#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_;
   chanaCM[chan]       = -2.8 * scale_;
   chanaCP[chan]       =  3.0 * scale_;
@@ -3326,9 +3326,9 @@ if (aqgc_ft) {
   chan = k_cms_wg8_ft7;
   chanName[chan]        = "f_{T,7} /#Lambda^{4}";
   chanMeasurement[chan] = "W#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_;
   chanaCM[chan]       = -7.3 * scale_;
   chanaCP[chan]       =  7.7 * scale_;
@@ -3339,9 +3339,9 @@ if (aqgc_ft) {
   chan = k_cms_zg8_ft0;
   chanName[chan]        = "f_{T,0} /#Lambda^{4}";
   chanMeasurement[chan] = "Z#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -3.8 * scale_; 
   chanaCP[chan]       =  3.4 * scale_; 
@@ -3351,9 +3351,9 @@ if (aqgc_ft) {
   chan = k_cms_zg8_ft1;
   chanName[chan]        = "f_{T,1} /#Lambda^{4}";
   chanMeasurement[chan] = "Z#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -4.4 * scale_; 
   chanaCP[chan]       =  4.4 * scale_; 
@@ -3363,9 +3363,9 @@ if (aqgc_ft) {
   chan = k_cms_zg8_ft2;
   chanName[chan]        = "f_{T,2} /#Lambda^{4}";
   chanMeasurement[chan] = "Z#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -9.9 * scale_; 
   chanaCP[chan]       =  9.0 * scale_; 
@@ -3375,9 +3375,9 @@ if (aqgc_ft) {
    chan = k_cms_zg8_ft8;
   chanName[chan]        = "f_{T,8} /#Lambda^{4}";
   chanMeasurement[chan] = "Z#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -1.8 * scale_; 
   chanaCP[chan]       =  1.8 * scale_; 
@@ -3386,9 +3386,9 @@ if (aqgc_ft) {
   chan = k_cms_zg8_ft9;
   chanName[chan]        = "f_{T,9} /#Lambda^{4}";
   chanMeasurement[chan] = "Z#gamma";
-  chanLumi[chan]        = "19.7 fb^{-1}";
+  chanLumi[chan]        = "19.7 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -4.0 * scale_; 
   chanaCP[chan]       =  4.0 * scale_; 
@@ -3401,9 +3401,9 @@ if (aqgc_ft) {
   chan = k_cms_ssww8_ft0;
   chanName[chan]        = "f_{T,0} /#Lambda^{4}";
   chanMeasurement[chan] = "ss WW";
-  chanLumi[chan]        = "19.4 fb^{-1}";
+  chanLumi[chan]        = "19.4 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -4.2 * scale_; 
   chanaCP[chan]       =  4.6 * scale_;
@@ -3413,9 +3413,9 @@ if (aqgc_ft) {
   chan = k_cms_ssww8_ft1;
   chanName[chan]        = "f_{T,1} /#Lambda^{4}";
   chanMeasurement[chan] = "ss WW";
-  chanLumi[chan]        = "19.4 fb^{-1}";
+  chanLumi[chan]        = "19.4 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -2.1 * scale_; 
   chanaCP[chan]       =  2.4 * scale_;
@@ -3425,9 +3425,9 @@ if (aqgc_ft) {
   chan = k_cms_ssww8_ft2;
   chanName[chan]        = "f_{T,2} /#Lambda^{4}";
   chanMeasurement[chan] = "ss WW";
-  chanLumi[chan]        = "19.4 fb^{-1}";
+  chanLumi[chan]        = "19.4 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -5.9 * scale_; 
   chanaCP[chan]       =  7.1 * scale_;
@@ -3438,9 +3438,9 @@ if (aqgc_ft) {
   chan = k_cms_ssww13_ft0;
   chanName[chan]        = "f_{T,0} /#Lambda^{4}";
   chanMeasurement[chan] = "ss WW";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -0.62 * scale_; 
   chanaCP[chan]       =  0.65 * scale_;
@@ -3450,9 +3450,9 @@ if (aqgc_ft) {
   chan = k_cms_ssww13_ft1;
   chanName[chan]        = "f_{T,1} /#Lambda^{4}";
   chanMeasurement[chan] = "ss WW";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -0.28 * scale_; 
   chanaCP[chan]       =  0.31 * scale_;
@@ -3462,9 +3462,9 @@ if (aqgc_ft) {
   chan = k_cms_ssww13_ft2;
   chanName[chan]        = "f_{T,2} /#Lambda^{4}";
   chanMeasurement[chan] = "ss WW";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -0.89 * scale_; 
   chanaCP[chan]       =  1.02 * scale_;
@@ -3481,9 +3481,9 @@ if (aqgc_ft) {
   chan = k_atlas_zg8_ft0;
   chanName[chan]        = "f_{T,0} /#Lambda^{4}";
   chanMeasurement[chan] = "Z#gamma";
-  chanLumi[chan]        = "29.2 fb^{-1}";
+  chanLumi[chan]        = "29.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -19.0 * g*g*g*g *scale_; 
   chanaCP[chan]       =  16.0 * g*g*g*g *scale_; 
@@ -3494,9 +3494,9 @@ if (aqgc_ft) {
   chan = k_atlas_zg8_ft8;
   chanName[chan]        = "f_{T,8} /#Lambda^{4}";
   chanMeasurement[chan] = "Z#gamma";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]      = -1900.0 * gp*gp*gp*gp *scale_/16.0; 
   chanaCP[chan]       =  2100.0 * gp*gp*gp*gp *scale_/16.0; 
@@ -3507,9 +3507,9 @@ if (aqgc_ft) {
   chan = k_atlas_zg8_ft9;
   chanName[chan]        = "f_{T,9} /#Lambda^{4}";
   chanMeasurement[chan] = "Z#gamma";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -4100.0  * scale_; 
   chanaCP[chan]       =  4200.0 * scale_; 
@@ -3524,9 +3524,9 @@ if (aqgc_ft) {
   chan = k_cms_zz13_ft0;
   chanName[chan]        = "f_{T,0} /#Lambda^{4}";
   chanMeasurement[chan] = "ZZ";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -0.46 * scale_; 
   chanaCP[chan]       =  0.44 * scale_; 
@@ -3535,9 +3535,9 @@ if (aqgc_ft) {
   chan = k_cms_zz13_ft1;
   chanName[chan]        = "f_{T,1} /#Lambda^{4}";
   chanMeasurement[chan] = "ZZ";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -0.61 * scale_; 
   chanaCP[chan]       =  0.61 * scale_; 
@@ -3546,9 +3546,9 @@ if (aqgc_ft) {
   chan = k_cms_zz13_ft2;
   chanName[chan]        = "f_{T,2} /#Lambda^{4}";
   chanMeasurement[chan] = "ZZ";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -1.2 * scale_; 
   chanaCP[chan]       =  1.2 * scale_; 
@@ -3557,9 +3557,9 @@ if (aqgc_ft) {
   chan = k_cms_zz13_ft8;
   chanName[chan]        = "f_{T,8} /#Lambda^{4}";
   chanMeasurement[chan] = "ZZ";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -0.84 * scale_; 
   chanaCP[chan]       =  0.84 * scale_; 
@@ -3568,9 +3568,9 @@ if (aqgc_ft) {
   chan = k_cms_zz13_ft9;
   chanName[chan]        = "f_{T,9} /#Lambda^{4}";
   chanMeasurement[chan] = "ZZ";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -1.8 * scale_; 
   chanaCP[chan]       =  1.8 * scale_; 
@@ -3582,9 +3582,9 @@ if (aqgc_ft) {
   chan = k_cms_wz13_ft0;
   chanName[chan]        = "f_{T,0} /#Lambda^{4}";
   chanMeasurement[chan] = "WZ";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -0.72 * scale_; 
   chanaCP[chan]       =  0.75 * scale_; 
@@ -3593,9 +3593,9 @@ if (aqgc_ft) {
   chan = k_cms_wz13_ft1;
   chanName[chan]        = "f_{T,1} /#Lambda^{4}";
   chanMeasurement[chan] = "WZ";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -0.48 * scale_; 
   chanaCP[chan]       =  0.52 * scale_; 
@@ -3604,9 +3604,9 @@ if (aqgc_ft) {
   chan = k_cms_wz13_ft2;
   chanName[chan]        = "f_{T,2} /#Lambda^{4}";
   chanMeasurement[chan] = "WZ";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -1.42 * scale_; 
   chanaCP[chan]       =  1.83 * scale_; 
@@ -3620,9 +3620,9 @@ if (aqgc_ft) {
   chan = k_atlas_wvg8_ft0;
   chanName[chan]        = "f_{T,0} /#Lambda^{4}";
   chanMeasurement[chan] = "WV#gamma";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -100.0 * (g*g*g*g) * scale_; 
   chanaCP[chan]       = 100.0 * (g*g*g*g) * scale_; 
@@ -3631,9 +3631,9 @@ if (aqgc_ft) {
     chan = k_atlas_wvg8_ft1;
   chanName[chan]        = "f_{T,1} /#Lambda^{4}";
   chanMeasurement[chan] = "WV#gamma";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -200.0 * (g*g*g*g) * scale_; 
   chanaCP[chan]       = 200.0 * (g*g*g*g) * scale_; 
@@ -3642,9 +3642,9 @@ if (aqgc_ft) {
   chan = k_atlas_wvg8_ft2;
   chanName[chan]        = "f_{T,2} /#Lambda^{4}";
   chanMeasurement[chan] = "WV#gamma";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -400.0 * (g*g*g*g) * scale_; 
   chanaCP[chan]       = 400.0 * (g*g*g*g) * scale_; 
@@ -3653,9 +3653,9 @@ if (aqgc_ft) {
     chan = k_atlas_wvg8_ft5;
   chanName[chan]        = "f_{T,5} /#Lambda^{4}";
   chanMeasurement[chan] = "WV#gamma";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -1500.0 * (g*g*gp*gp/4.0) * scale_; 
   chanaCP[chan]       = 1600.0 * (g*g*gp*gp/4.0) * scale_; 
@@ -3664,9 +3664,9 @@ if (aqgc_ft) {
       chan = k_atlas_wvg8_ft6;
   chanName[chan]        = "f_{T,6} /#Lambda^{4}";
   chanMeasurement[chan] = "WV#gamma";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -1900.0 * (g*g*gp*gp/4.0) * scale_; 
   chanaCP[chan]       = 1900.0 * (g*g*gp*gp/4.0) * scale_; 
@@ -3675,9 +3675,9 @@ if (aqgc_ft) {
       chan = k_atlas_wvg8_ft7;
   chanName[chan]        = "f_{T,7} /#Lambda^{4}";
   chanMeasurement[chan] = "WV#gamma";
-  chanLumi[chan]        = "20.2 fb^{-1}";
+  chanLumi[chan]        = "20.2 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -4300.0 * (g*g*gp*gp/4.0) * scale_; 
   chanaCP[chan]       = 4300.0 * (g*g*gp*gp/4.0) * scale_; 
@@ -3688,9 +3688,9 @@ if (aqgc_ft) {
   chan = k_cms_vv13_ft0;
   chanName[chan]        = "f_{T,0} /#Lambda^{4}";
   chanMeasurement[chan] = "WV ZV";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -0.12 * scale_; 
   chanaCP[chan]       =  0.10 * scale_; 
@@ -3700,9 +3700,9 @@ if (aqgc_ft) {
   chan = k_cms_vv13_ft1;
   chanName[chan]        = "f_{T,1} /#Lambda^{4}";
   chanMeasurement[chan] = "WV ZV";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -0.11 * scale_; 
   chanaCP[chan]       =  0.12 * scale_; 
@@ -3711,9 +3711,9 @@ if (aqgc_ft) {
     chan = k_cms_vv13_ft2;
   chanName[chan]        = "f_{T,2} /#Lambda^{4}";
   chanMeasurement[chan] = "WV ZV";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       = 0.0   * scale_; 
   chanaCM[chan]       = -0.27 * scale_; 
   chanaCP[chan]       =  0.27 * scale_; 
@@ -3730,9 +3730,9 @@ if (aqgc_fs) {
   chan = k_cms_ssww8_fs0;
   chanName[chan]        = "f_{S,0} /#Lambda^{4}";
   chanMeasurement[chan] = "ss WW";
-  chanLumi[chan]        = "19.4 fb^{-1}";
+  chanLumi[chan]        = "19.4 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -38 * scale_; 
   chanaCP[chan]       =  40 * scale_;
@@ -3742,9 +3742,9 @@ if (aqgc_fs) {
   chan = k_cms_ssww8_fs1;
   chanName[chan]        = "f_{S,1} /#Lambda^{4}";
   chanMeasurement[chan] = "ss WW";
-  chanLumi[chan]        = "19.4 fb^{-1}";
+  chanLumi[chan]        = "19.4 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -118 * scale_; 
   chanaCP[chan]       =  120 * scale_;
@@ -3756,9 +3756,9 @@ if (aqgc_fs) {
   chan = k_cms_ssww13_fs0;
   chanName[chan]        = "f_{S,0} /#Lambda^{4}";
   chanMeasurement[chan] = "ss WW";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -7.7 * scale_; 
   chanaCP[chan]       =  7.7 * scale_;
@@ -3768,9 +3768,9 @@ if (aqgc_fs) {
   chan = k_cms_ssww13_fs1;
   chanName[chan]        = "f_{S,1} /#Lambda^{4}";
   chanMeasurement[chan] = "ss WW";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -21.6 * scale_; 
   chanaCP[chan]       =  21.8 * scale_;
@@ -3781,9 +3781,9 @@ if (aqgc_fs) {
   chan = k_atlas_ssww8_fs0;
   chanName[chan]        = "f_{S,0} /#Lambda^{4}";
   chanMeasurement[chan] = "ss WW";
-  chanLumi[chan]        = "20.3 fb^{-1}";
+  chanLumi[chan]        = "20.3 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -420 * scale_; 
   chanaCP[chan]       =  490 * scale_;
@@ -3793,9 +3793,9 @@ if (aqgc_fs) {
   chan = k_atlas_ssww8_fs1;
   chanName[chan]        = "f_{S,1} /#Lambda^{4}";
   chanMeasurement[chan] = "ss WW";
-  chanLumi[chan]        = "20.3 fb^{-1}";
+  chanLumi[chan]        = "20.3 ";
   chanExp[chan]         = "ATLAS";
-  chanSqrtS[chan]       = "8 TeV";
+  chanSqrtS[chan]       = "8 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -1010 * scale_; 
   chanaCP[chan]       =  1060 * scale_;
@@ -3807,9 +3807,9 @@ if (aqgc_fs) {
   chan = k_cms_wz13_fs0;
   chanName[chan]        = "f_{S,0} /#Lambda^{4}";
   chanMeasurement[chan] = "WZ";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -25.7 * scale_; 
   chanaCP[chan]       =  27.5 * scale_;
@@ -3819,9 +3819,9 @@ if (aqgc_fs) {
   chan = k_cms_wz13_fs1;
   chanName[chan]        = "f_{S,1} /#Lambda^{4}";
   chanMeasurement[chan] = "WZ";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -40.5 * scale_; 
   chanaCP[chan]       =  41.5 * scale_;
@@ -3832,9 +3832,9 @@ if (aqgc_fs) {
   chan = k_cms_vv13_fs0;
   chanName[chan]        = "f_{S,0} /#Lambda^{4}";
   chanMeasurement[chan] = "WV ZV";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -2.6 * scale_; 
   chanaCP[chan]       =  2.7 * scale_;
@@ -3843,9 +3843,9 @@ if (aqgc_fs) {
   chan = k_cms_vv13_fs1;
   chanName[chan]        = "f_{S,1} /#Lambda^{4}";
   chanMeasurement[chan] = "WV ZV";
-  chanLumi[chan]        = "35.9 fb^{-1}";
+  chanLumi[chan]        = "35.9 ";
   chanExp[chan]         = "CMS";
-  chanSqrtS[chan]       = "13 TeV";
+  chanSqrtS[chan]       = "13 ";
   chanaCC[chan]       =  0.0 * scale_; 
   chanaCM[chan]       =  -3.3 * scale_; 
   chanaCP[chan]       =  3.3 * scale_;
