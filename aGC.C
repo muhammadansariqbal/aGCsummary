@@ -26,7 +26,7 @@ using namespace std;
 float markerSize = 1.0;
 float titleOffsetX = 0.9;
 float titleOffsetY = 1.1;
-float titleSizeX = 0.045;
+float titleSizeX = 0.04;
 float titleSizeY = 0.05;
 float labelSizeX = 0.04;
 float labelOffsetX = 0.004;
@@ -35,7 +35,7 @@ float labelSizeY = 0.045;
 float tickLengthX  = 0.03;
 int ndivx = 506;
 int ndivy = 506;
-float aspR = 1.2; 
+float aspR = 1.1; 
 
 // plot type
 bool _natgcz;
@@ -198,7 +198,7 @@ aGC(float ymin=-2.0, float ymax=900000 )
 	    if (atgc) txtSize[ntxt] = size_+0.01;
 	    txtX[ntxt] = 1.0*minRange;
 	    if (aqgc) txtY[ntxt] = nPlotChan - (nBin_) +1.1*DY_;
-	    if (atgc) txtY[ntxt] = nPlotChan - (nBin_) +0.8*DY_;
+	    if (atgc) txtY[ntxt] = nPlotChan - (nBin_) +0.2*DY_;
 	    cout << "chan: " << txt[ntxt] << endl;
 	    cout << "text location Y: " << txtY[ntxt] << endl;
             cout << "text location X: " << txtX[ntxt] << endl;
@@ -271,7 +271,7 @@ aGC(float ymin=-2.0, float ymax=900000 )
 	txt[ntxt] = "#int";
 	txtSize[ntxt] = size_-0.016;
 	txtX[ntxt] = 0.73*maxRange;
-	txtY[ntxt] = nPlotChan +1.70*DY_;
+	txtY[ntxt] = nPlotChan +1.5*DY_;
 	txtAlign[ntxt] = 12;
 	txtFont[ntxt] = 42;
 	ntxt++;
@@ -301,7 +301,7 @@ aGC(float ymin=-2.0, float ymax=900000 )
 
 
  
-  float xw_ = 1200;
+  float xw_ = 1000;
   float yw_ = xw_/aspR;
  
   // the canvas
@@ -477,7 +477,7 @@ void draw_bin_grid( size_t lineNum, float xmin, float xmax, float ymin, float ym
   if(lineNum==1 || lineNum==2){
     TBox highlight_;
     highlight_.SetFillColor(kYellow-4);
-    highlight_.DrawBox(0.3,ymin,0.995,ymax+1);
+    highlight_.DrawBox(0.3,ymin+0.05,0.995,ymax+1);
   }
   else if (lineNum==3){
     TBox highlight_;
@@ -515,7 +515,7 @@ void text_init()
   txtNDC[0]=true;
   txtFont[0] = 42;
 
-  txt[1] = "March 2019";
+  txt[1] = "July 2019";
   txtSize[1] = 0.028;
   txtX[1] = 0.115;
   txtY[1] = 0.96;
